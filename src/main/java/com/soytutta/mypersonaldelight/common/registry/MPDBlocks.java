@@ -18,7 +18,7 @@ public class MPDBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(Registries.BLOCK, "mypersonaldelight");
     // Feasts
     public static final Supplier<Block> ANCIENT_SOFT_BOILED_EGG_AND_BREADS_BLOCK = BLOCKS.register("ancient_soft-boiled_egg_and_breads_block",
-            () -> new AncientSoftBoiledEggBlock(Block.Properties.ofFullCopy(Blocks.CAKE), MPDItems.PLATE_OF_ANCIENT_SOFT_BOILED_EGG_AND_BREAD, true, MPDItems.ANCIENT_EGG_SANDWICH, ModItems.IRON_KNIFE, ModTags.KNIVES));
+            () -> new AncientSoftBoiledEggBlock(Block.Properties.ofFullCopy(Blocks.CAKE), MPDItems.PLATE_OF_ANCIENT_SOFT_BOILED_EGG_AND_BREAD,4, MPDItems.ANCIENT_EGG_SANDWICH, true));
     public static final Supplier<Block> POTATO_AND_MEAT_PIE_BLOCK = BLOCKS.register("potato_and_meat_pie_block",
             () -> new PotatoAndMeatPieBlock(Block.Properties.ofFullCopy(Blocks.CAKE), MPDItems.PLATE_OF_POTATO_AND_MEAT_PIE, true));
     public static final Supplier<Block> MINT_ROULETTE_BLOCK = BLOCKS.register("mint_roulette_block",

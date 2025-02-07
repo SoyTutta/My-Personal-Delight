@@ -193,7 +193,7 @@ public class PotLuckSoupBlock extends ThreefoldFeastBlock implements SimpleWater
 
         if (servings > 0) {
             if (state.getValue(VALANCE)) {
-                ItemStack selectedServing = determineServing(servingOne, servingTwo, servingThree, pos, state);
+                ItemStack selectedServing = determineServing(servingOne, servingTwo, servingThree, pos, state, player);
 
                 if (selectedServing != null && processServing(level, pos, state, player, hand, selectedServing, servings)) {
                     BlockState newState = state;
@@ -206,9 +206,9 @@ public class PotLuckSoupBlock extends ThreefoldFeastBlock implements SimpleWater
                     newState = newState.setValue(this.getServingsProperty(), servings - 1);
                     level.setBlock(pos, newState, 3);
 
-                    return ItemInteractionResult.PASS_TO_DEFAULT_BLOCK_INTERACTION;
-                }
 
+                    return ItemInteractionResult.SUCCESS;
+                }
             }
         }
 
@@ -224,7 +224,7 @@ public class PotLuckSoupBlock extends ThreefoldFeastBlock implements SimpleWater
     }
 
     @Override
-    protected ItemStack determineServing(ItemStack servingOne, ItemStack servingTwo, ItemStack servingThree, BlockPos pos, BlockState state) {
+    protected ItemStack determineServing(ItemStack servingOne, ItemStack servingTwo, ItemStack servingThree, BlockPos pos, BlockState state, Player player) {
         int meat = state.getValue(getMeatProperty());
         int veggies = state.getValue(getVeggiesProperty());
         boolean hasTail = state.getValue(TAIL);

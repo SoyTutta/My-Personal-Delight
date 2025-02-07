@@ -89,7 +89,8 @@ public class MPDLang extends LanguageProvider {
         this.add("mypersonaldelight.block.veggies_excess.use_container", "This needs a few more Meat!");
         this.add("mypersonaldelight.block.tasteless.use_container", "There's some leftover soup, Try adding water!");
         this.add("mypersonaldelight.block.needheat.use_container", "You need a heat source for cooking.");
-        this.add("mypersonaldelight.block.feastalt.use_container", "You need a %s or a %s to eat this.");
+        this.add("mypersonaldelight.block.feast.use_alt_container", "You need a %s or a %s to eat this.");
+        this.add("mypersonaldelight.block.feast.need_knives", "Knive");
         this.add("mypersonaldelight.block.snowgolemfeast.use_container", "You need a %s to eat this.");
     }
 
