@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:pitcher_pod"
+      },
+      {
+        "item": "mypersonaldelight:pot_slice"
+      }
+    ],
+    [
+      {
+        "item": "minecraft:pitcher_pod"
+      },
+      {
+        "item": "mypersonaldelight:pot_slice"
+      }
+    ],
+    [
+      {
+        "item": "minecraft:pitcher_pod"
+      },
+      {
+        "item": "mypersonaldelight:pot_slice"
+      }
+    ],
+    {
+      "item": "mypersonaldelight:ancient_boiled_egg"
+    },
+    {
+      "item": "mypersonaldelight:ancient_boiled_egg"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "mypersonaldelight:ancient_breakfast"
+  }
+}

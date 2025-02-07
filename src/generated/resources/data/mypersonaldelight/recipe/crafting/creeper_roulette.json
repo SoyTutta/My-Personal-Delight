@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "mypersonaldelight:creeper_salad"
+    },
+    "m": {
+      "item": "mypersonaldelight:mint_lettuce"
+    },
+    "s": {
+      "item": "mypersonaldelight:sweet_trigger"
+    }
+  },
+  "pattern": [
+    "msm",
+    "mcm"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mypersonaldelight:mint_roulette"
+  }
+}

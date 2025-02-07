@@ -1,0 +1,24 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 400,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "c:crops/potato"
+    },
+    {
+      "tag": "c:crops/potato"
+    },
+    {
+      "tag": "c:foods/onion"
+    },
+    {
+      "tag": "c:eggs"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "mypersonaldelight:potato_omelet"
+  }
+}

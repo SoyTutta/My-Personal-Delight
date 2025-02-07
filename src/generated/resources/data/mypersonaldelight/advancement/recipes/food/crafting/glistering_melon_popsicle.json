@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_melon_popsicle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "farmersdelight:melon_popsicle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "mypersonaldelight:crafting/glistering_melon_popsicle"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_melon_popsicle"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mypersonaldelight:crafting/glistering_melon_popsicle"
+    ]
+  }
+}

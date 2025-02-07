@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_breaded_meat": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mypersonaldelight:cooked_breaded_meat"
+          },
+          {
+            "items": "mypersonaldelight:raw_breaded_meat"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "mypersonaldelight:crafting/breaded_meat_with_mashed_potato"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_breaded_meat"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mypersonaldelight:crafting/breaded_meat_with_mashed_potato"
+    ]
+  }
+}

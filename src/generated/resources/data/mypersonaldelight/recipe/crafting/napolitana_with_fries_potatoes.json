@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "farmersdelight:milk_bottle"
+    },
+    {
+      "tag": "c:crops/tomato"
+    },
+    {
+      "item": "mypersonaldelight:fries_potatoes"
+    },
+    {
+      "item": "mypersonaldelight:cooked_breaded_meat"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "mypersonaldelight:napolitana_with_fries_potatoes"
+  }
+}

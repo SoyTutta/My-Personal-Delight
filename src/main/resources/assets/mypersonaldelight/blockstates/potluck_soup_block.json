@@ -1,0 +1,1149 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/guardian_head_bowl",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/guardian_head_bowl"
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/guardian_head_bowl",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/guardian_head_bowl",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "roof": "false",
+        "tail": "true"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/tail_of_guardian_state0_out",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "roof": "false",
+        "tail": "true"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/tail_of_guardian_state0_out"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "roof": "false",
+        "tail": "true"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/tail_of_guardian_state0_out",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "roof": "false",
+        "tail": "true"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/tail_of_guardian_state0_out",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "roof": "true",
+        "tail": "true"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/tail_of_guardian_state0_in",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "roof": "true",
+        "tail": "true"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/tail_of_guardian_state0_in"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "roof": "true",
+        "tail": "true"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/tail_of_guardian_state0_in",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "roof": "true",
+        "tail": "true"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/tail_of_guardian_state0_in",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "first_serving": "true"
+      },
+      "apply": {
+      "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_eye",
+      "y": 90
+    }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "first_serving": "true"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_eye"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "first_serving": "true"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_eye",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "first_serving": "true"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_eye",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "meat": "1",
+        "servings": "4"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat1_state0",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "meat": "1",
+        "servings": "4"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat1_state0"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "meat": "1",
+        "servings": "4"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat1_state0",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "meat": "1",
+        "servings": "4"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat1_state0",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "meat": "1",
+        "servings": "4"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat1_state1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "meat": "1",
+        "servings": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat1_state1"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "meat": "1",
+        "servings": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat1_state1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "meat": "1",
+        "servings": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat1_state1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "meat": "1",
+        "servings": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat1_state2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "meat": "1",
+        "servings": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat1_state2"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "meat": "1",
+        "servings": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat1_state2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "meat": "1",
+        "servings": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat1_state2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "meat": "1",
+        "servings": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat1_state3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "meat": "1",
+        "servings": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat1_state3"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "meat": "1",
+        "servings": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat1_state3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "meat": "1",
+        "servings": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat1_state3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "meat": "1",
+        "servings": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat1_state4",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "meat": "1",
+        "servings": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat1_state4"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "meat": "1",
+        "servings": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat1_state4",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "meat": "1",
+        "servings": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat1_state4",
+        "y": 270
+      }
+    },{
+      "when": {
+        "facing": "east",
+        "meat": "2",
+        "servings": "4"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat2_state0",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "meat": "2",
+        "servings": "4"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat2_state0"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "meat": "2",
+        "servings": "4"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat2_state0",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "meat": "2",
+        "servings": "4"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat2_state0",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "meat": "2",
+        "servings": "4"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat2_state1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "meat": "2",
+        "servings": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat2_state1"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "meat": "2",
+        "servings": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat2_state1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "meat": "2",
+        "servings": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat2_state1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "meat": "2",
+        "servings": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat2_state2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "meat": "2",
+        "servings": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat2_state2"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "meat": "2",
+        "servings": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat2_state2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "meat": "2",
+        "servings": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat2_state2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "meat": "2",
+        "servings": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat2_state3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "meat": "2",
+        "servings": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat2_state3"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "meat": "2",
+        "servings": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat2_state3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "meat": "2",
+        "servings": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat2_state3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "meat": "2",
+        "servings": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat2_state4",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "meat": "2",
+        "servings": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat2_state4"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "meat": "2",
+        "servings": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat2_state4",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "meat": "2",
+        "servings": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat2_state4",
+        "y": 270
+      }
+    },{
+      "when": {
+        "facing": "east",
+        "meat": "3",
+        "servings": "4"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat3_state0",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "meat": "3",
+        "servings": "4"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat3_state0"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "meat": "3",
+        "servings": "4"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat3_state0",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "meat": "3",
+        "servings": "4"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat3_state0",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "meat": "3",
+        "servings": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat3_state1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "meat": "3",
+        "servings": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat3_state1"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "meat": "3",
+        "servings": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat3_state1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "meat": "3",
+        "servings": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat3_state1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "meat": "3",
+        "servings": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat3_state2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "meat": "3",
+        "servings": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat3_state2"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "meat": "3",
+        "servings": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat3_state2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "meat": "3",
+        "servings": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat3_state2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "meat": "3",
+        "servings": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat3_state3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "meat": "3",
+        "servings": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat3_state3"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "meat": "3",
+        "servings": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat3_state3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "meat": "3",
+        "servings": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat3_state3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "meat": "3",
+        "servings": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat3_state4",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "meat": "3",
+        "servings": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat3_state4"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "meat": "3",
+        "servings": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat3_state4",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "meat": "3",
+        "servings": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat3_state4",
+        "y": 270
+      }
+    },{
+      "when": {
+        "facing": "east",
+        "meat": "4",
+        "servings": "4"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat4_state0",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "meat": "4",
+        "servings": "4"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat4_state0"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "meat": "4",
+        "servings": "4"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat4_state0",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "meat": "4",
+        "servings": "4"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat4_state0",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "meat": "4",
+        "servings": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat4_state1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "meat": "4",
+        "servings": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat4_state1"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "meat": "4",
+        "servings": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat4_state1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "meat": "4",
+        "servings": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat4_state1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "meat": "4",
+        "servings": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat4_state2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "meat": "4",
+        "servings": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat4_state2"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "meat": "4",
+        "servings": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat4_state2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "meat": "4",
+        "servings": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat4_state2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "meat": "4",
+        "servings": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat4_state3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "meat": "4",
+        "servings": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat4_state3"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "meat": "4",
+        "servings": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat4_state3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "meat": "4",
+        "servings": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat4_state3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "meat": "4",
+        "servings": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat4_state4",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "meat": "4",
+        "servings": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat4_state4"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "meat": "4",
+        "servings": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat4_state4",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "meat": "4",
+        "servings": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_meat4_state4",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "servings": "4",
+        "valance": "true"
+      },
+      "apply": [
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_state0", "y": 90 },
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_state0" },
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_state0", "y": 180 },
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_state0", "y": 270 }
+      ]
+    },
+    {
+      "when": {
+        "servings": "3",
+        "valance": "true"
+      },
+      "apply": [
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_state1", "y": 90 },
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_state1" },
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_state1", "y": 180 },
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_state1", "y": 270 }
+      ]
+    },
+    {
+      "when": {
+        "servings": "2",
+        "valance": "true"
+      },
+      "apply": [
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_state2", "y": 90 },
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_state2" },
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_state2", "y": 180 },
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_state2", "y": 270 }
+      ]
+    },
+    {
+      "when": {
+        "servings": "1",
+        "valance": "true"
+      },
+      "apply": [
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_state3", "y": 90 },
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_state3" },
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_state3", "y": 180 },
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_state3", "y": 270 }
+      ]
+    },
+    {
+      "when": {
+        "servings": "0",
+        "valance": "true"
+      },
+      "apply": [
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_state4", "y": 90 },
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_state4" },
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_state4", "y": 180 },
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_soup_state4", "y": 270 }
+      ]
+    },
+    {
+      "when": {
+        "servings": "4",
+        "valance": "false"
+      },
+      "apply": [
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_nosoup_state0", "y": 90 },
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_nosoup_state0" },
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_nosoup_state0", "y": 180 },
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_nosoup_state0", "y": 270 }
+      ]
+    },
+    {
+      "when": {
+        "servings": "3",
+        "valance": "false"
+      },
+      "apply": [
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_nosoup_state1", "y": 90 },
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_nosoup_state1" },
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_nosoup_state1", "y": 180 },
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_nosoup_state1", "y": 270 }
+      ]
+    },
+    {
+      "when": {
+        "servings": "2",
+        "valance": "false"
+      },
+      "apply": [
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_nosoup_state2", "y": 90 },
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_nosoup_state2" },
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_nosoup_state2", "y": 180 },
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_nosoup_state2", "y": 270 }
+      ]
+    },
+    {
+      "when": {
+        "servings": "1",
+        "valance": "false"
+      },
+      "apply": [
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_nosoup_state3", "y": 90 },
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_nosoup_state3" },
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_nosoup_state3", "y": 180 },
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_nosoup_state3", "y": 270 }
+      ]
+    },
+    {
+      "when": {
+        "servings": "0",
+        "valance": "false"
+      },
+      "apply": [
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_nosoup_state4", "y": 90 },
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_nosoup_state4" },
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_nosoup_state4", "y": 180 },
+        { "model": "mypersonaldelight:block/guardian_potluck_soup/potluck_nosoup_state4", "y": 270 }
+      ]
+    },
+    {
+      "when": {
+        "support": "true"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/guardian_potluck_soup/tray"
+      }
+    }
+  ]
+}

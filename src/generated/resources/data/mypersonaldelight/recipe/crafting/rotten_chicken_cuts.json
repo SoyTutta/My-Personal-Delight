@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "mypersonaldelight:broken_bones"
+    },
+    "r": {
+      "item": "mypersonaldelight:rotten_minced_beef"
+    }
+  },
+  "pattern": [
+    "r",
+    "#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mypersonaldelight:rotten_chicken_cuts"
+  }
+}

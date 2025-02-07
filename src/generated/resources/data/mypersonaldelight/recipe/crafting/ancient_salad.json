@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:torchflower"
+    },
+    [
+      {
+        "item": "minecraft:torchflower"
+      },
+      {
+        "item": "minecraft:torchflower_seeds"
+      }
+    ],
+    [
+      {
+        "item": "minecraft:torchflower"
+      },
+      {
+        "item": "minecraft:torchflower_seeds"
+      }
+    ],
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "mypersonaldelight:ancient_salad"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "mypersonaldelight:cooked_ancient_ribs"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 4,
+        "id": "farmersdelight:cooked_mutton_chops"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knife"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "farmersdelight:egg_sandwich"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 2,
+        "id": "mypersonaldelight:half_a_egg_sandwich"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knife"
+  }
+}

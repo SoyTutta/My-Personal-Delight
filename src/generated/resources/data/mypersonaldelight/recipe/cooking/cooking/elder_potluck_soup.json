@@ -1,0 +1,42 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "mypersonaldelight:elder_guardian_head"
+  },
+  "cookingtime": 600,
+  "experience": 4.0,
+  "ingredients": [
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "item": "mypersonaldelight:raw_elder_guardian_tail"
+        },
+        {
+          "item": "mypersonaldelight:smoked_elder_guardian_tail"
+        }
+      ]
+    },
+    {
+      "tag": "c:foods/any_guardian_tails"
+    },
+    {
+      "tag": "c:foods/any_guardian_tails"
+    },
+    {
+      "tag": "c:foods/any_guardian_meats"
+    },
+    {
+      "item": "farmersdelight:onion_crate"
+    },
+    {
+      "item": "farmersdelight:tomato_crate"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "mypersonaldelight:elder_potluck_soup"
+  }
+}

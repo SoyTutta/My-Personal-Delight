@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 400,
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "item": "minecraft:ghast_tear"
+    },
+    {
+      "item": "mypersonaldelight:disgusting_stew"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "count": 1,
+    "id": "farmersdelight:chicken_soup"
+  }
+}

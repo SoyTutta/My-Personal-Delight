@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_elder_guardian_slice": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mypersonaldelight:cooked_elder_guardian_slice"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "mypersonaldelight:crafting/elder_guardian_grilled_on_a_stick"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_elder_guardian_slice"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mypersonaldelight:crafting/elder_guardian_grilled_on_a_stick"
+    ]
+  }
+}

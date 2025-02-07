@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "mypersonaldelight:rotten_minced_beef"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "mypersonaldelight:rotten_sausage"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 400,
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "item": "minecraft:sniffer_egg"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 6,
+    "id": "mypersonaldelight:ancient_boiled_egg"
+  }
+}

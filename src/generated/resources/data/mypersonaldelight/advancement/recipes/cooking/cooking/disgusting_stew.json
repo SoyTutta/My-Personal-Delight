@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_any_ingredient": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:rotten_flesh",
+              "mypersonaldelight:rotten_sausage",
+              "mypersonaldelight:rotten_minced_beef",
+              "mypersonaldelight:rotten_bacon",
+              "mypersonaldelight:rotten_mutton_chops",
+              "mypersonaldelight:rotten_chicken_cuts"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "mypersonaldelight:cooking/cooking/disgusting_stew"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_any_ingredient"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mypersonaldelight:cooking/cooking/disgusting_stew"
+    ]
+  }
+}

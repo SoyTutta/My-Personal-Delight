@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "mypersonaldelight:cooked_guardian_slice"
+    },
+    {
+      "item": "mypersonaldelight:cooked_guardian_slice"
+    },
+    {
+      "item": "mypersonaldelight:cooked_guardian_slice"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "mypersonaldelight:guardian_grilled_on_a_stick"
+  }
+}

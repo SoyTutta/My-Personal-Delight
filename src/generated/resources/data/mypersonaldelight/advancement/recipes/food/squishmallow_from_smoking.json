@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_squishmallow": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mypersonaldelight:smoked_squishmallow"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "mypersonaldelight:squishmallow_from_smoking"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_squishmallow"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mypersonaldelight:squishmallow_from_smoking"
+    ]
+  }
+}

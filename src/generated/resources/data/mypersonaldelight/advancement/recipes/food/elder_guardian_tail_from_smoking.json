@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_elder_guardian_tail": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mypersonaldelight:raw_elder_guardian_tail"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "mypersonaldelight:elder_guardian_tail_from_smoking"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_elder_guardian_tail"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mypersonaldelight:elder_guardian_tail_from_smoking"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "mypersonaldelight:ice_cream_in_a_pumpkin_head"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 4,
+        "id": "mypersonaldelight:pumpkin_head_slice"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knife"
+  }
+}

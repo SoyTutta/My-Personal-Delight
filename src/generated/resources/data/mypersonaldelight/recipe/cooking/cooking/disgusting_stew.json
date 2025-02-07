@@ -1,0 +1,24 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 400,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "c:foods/rotten_meals"
+    },
+    {
+      "tag": "c:foods/rotten_vegetables"
+    },
+    {
+      "item": "farmersdelight:straw"
+    },
+    {
+      "tag": "c:foods/rotten_meals"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "mypersonaldelight:disgusting_stew"
+  }
+}

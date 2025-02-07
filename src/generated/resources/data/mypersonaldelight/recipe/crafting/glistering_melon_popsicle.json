@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "farmersdelight:melon_popsicle"
+    },
+    "g": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "pattern": [
+    "ggg",
+    "g#g",
+    "ggg"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mypersonaldelight:glistering_melon_popsicle"
+  }
+}

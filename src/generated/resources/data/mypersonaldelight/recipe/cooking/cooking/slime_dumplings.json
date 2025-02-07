@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "mypersonaldelight:slimecube"
+    },
+    {
+      "item": "mypersonaldelight:slimecube"
+    },
+    {
+      "tag": "c:foods/onion"
+    },
+    {
+      "type": "neoforge:difference",
+      "base": {
+        "tag": "c:foods/vegetable"
+      },
+      "subtracted": {
+        "item": "minecraft:melon_slice"
+      }
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "mypersonaldelight:slime_dumplings"
+  }
+}

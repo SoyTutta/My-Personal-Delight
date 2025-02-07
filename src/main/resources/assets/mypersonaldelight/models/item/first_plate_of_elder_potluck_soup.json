@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mypersonaldelight:item/first_plate_of_elder_potluck_soup"
+  }
+}

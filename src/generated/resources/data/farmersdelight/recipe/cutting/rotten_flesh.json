@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:rotten_flesh"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "mypersonaldelight:rotten_bacon"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knife"
+  }
+}

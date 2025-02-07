@@ -1,0 +1,39 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "tag": "c:foods/pasta"
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "item": "minecraft:pitcher_pod"
+        },
+        {
+          "item": "mypersonaldelight:pot_slice"
+        }
+      ]
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "item": "minecraft:pitcher_pod"
+        },
+        {
+          "item": "mypersonaldelight:pot_slice"
+        }
+      ]
+    },
+    {
+      "item": "farmersdelight:tomato_sauce"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "mypersonaldelight:pasta_with_pot"
+  }
+}

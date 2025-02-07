@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "guardian_slice": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mypersonaldelight:raw_guardian_slice"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "mypersonaldelight:guardian_slice_from_smoking"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "guardian_slice"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mypersonaldelight:guardian_slice_from_smoking"
+    ]
+  }
+}

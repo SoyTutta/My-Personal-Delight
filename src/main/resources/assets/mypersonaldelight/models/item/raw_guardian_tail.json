@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mypersonaldelight:item/raw_guardian_tail"
+  }
+}

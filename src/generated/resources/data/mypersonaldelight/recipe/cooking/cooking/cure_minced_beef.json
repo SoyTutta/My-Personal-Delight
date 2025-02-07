@@ -1,0 +1,30 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 400,
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "item": "minecraft:ghast_tear"
+    },
+    {
+      "item": "mypersonaldelight:rotten_minced_beef"
+    },
+    {
+      "item": "mypersonaldelight:rotten_minced_beef"
+    },
+    {
+      "item": "mypersonaldelight:rotten_minced_beef"
+    },
+    {
+      "item": "mypersonaldelight:rotten_minced_beef"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "count": 4,
+    "id": "farmersdelight:beef_patty"
+  }
+}

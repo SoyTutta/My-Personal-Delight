@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "mypersonaldelight:raw_guardian_slice"
+  },
+  "result": {
+    "count": 1,
+    "id": "mypersonaldelight:cooked_guardian_slice"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "variants": {
+    "facing=east,servings=0": {
+      "model": "mypersonaldelight:block/potato_and_meat_pie_leftover",
+      "y": 90
+    },
+    "facing=east,servings=1": {
+      "model": "mypersonaldelight:block/potato_and_meat_pie_5",
+      "y": 90
+    },
+    "facing=east,servings=2": {
+      "model": "mypersonaldelight:block/potato_and_meat_pie_4",
+      "y": 90
+    },
+    "facing=east,servings=3": {
+      "model": "mypersonaldelight:block/potato_and_meat_pie_3",
+      "y": 90
+    },
+    "facing=east,servings=4,extraservings=0": {
+      "model": "mypersonaldelight:block/potato_and_meat_pie_2",
+      "y": 90
+    },
+    "facing=east,servings=4,extraservings=1": {
+      "model": "mypersonaldelight:block/potato_and_meat_pie_1",
+      "y": 90
+    },
+    "facing=east,servings=4,extraservings=2": {
+      "model": "mypersonaldelight:block/potato_and_meat_pie_0",
+      "y": 90
+    },
+    "facing=north,servings=0": {
+      "model": "mypersonaldelight:block/potato_and_meat_pie_leftover"
+    },
+    "facing=north,servings=1": {
+      "model": "mypersonaldelight:block/potato_and_meat_pie_5"
+    },
+    "facing=north,servings=2": {
+      "model": "mypersonaldelight:block/potato_and_meat_pie_4"
+    },
+    "facing=north,servings=3": {
+      "model": "mypersonaldelight:block/potato_and_meat_pie_3"
+    },
+    "facing=north,servings=4,extraservings=0": {
+      "model": "mypersonaldelight:block/potato_and_meat_pie_2"
+    },
+    "facing=north,servings=4,extraservings=1": {
+      "model": "mypersonaldelight:block/potato_and_meat_pie_1"
+    },
+    "facing=north,servings=4,extraservings=2": {
+      "model": "mypersonaldelight:block/potato_and_meat_pie_0"
+    },
+    "facing=south,servings=0": {
+      "model": "mypersonaldelight:block/potato_and_meat_pie_leftover",
+      "y": 180
+    },
+    "facing=south,servings=1": {
+      "model": "mypersonaldelight:block/potato_and_meat_pie_5",
+      "y": 180
+    },
+    "facing=south,servings=2": {
+      "model": "mypersonaldelight:block/potato_and_meat_pie_4",
+      "y": 180
+    },
+    "facing=south,servings=3": {
+      "model": "mypersonaldelight:block/potato_and_meat_pie_3",
+      "y": 180
+    },
+    "facing=south,servings=4,extraservings=0": {
+      "model": "mypersonaldelight:block/potato_and_meat_pie_2",
+      "y": 180
+    },
+    "facing=south,servings=4,extraservings=1": {
+      "model": "mypersonaldelight:block/potato_and_meat_pie_1",
+      "y": 180
+    },
+    "facing=south,servings=4,extraservings=2": {
+      "model": "mypersonaldelight:block/potato_and_meat_pie_0",
+      "y": 180
+    },
+    "facing=west,servings=0": {
+      "model": "mypersonaldelight:block/potato_and_meat_pie_leftover",
+      "y": 270
+    },
+    "facing=west,servings=1": {
+      "model": "mypersonaldelight:block/potato_and_meat_pie_5",
+      "y": 270
+    },
+    "facing=west,servings=2": {
+      "model": "mypersonaldelight:block/potato_and_meat_pie_4",
+      "y": 270
+    },
+    "facing=west,servings=3": {
+      "model": "mypersonaldelight:block/potato_and_meat_pie_3",
+      "y": 270
+    },
+    "facing=west,servings=4,extraservings=0": {
+      "model": "mypersonaldelight:block/potato_and_meat_pie_2",
+      "y": 270
+    },
+    "facing=west,servings=4,extraservings=1": {
+      "model": "mypersonaldelight:block/potato_and_meat_pie_1",
+      "y": 270
+    },
+    "facing=west,servings=4,extraservings=2": {
+      "model": "mypersonaldelight:block/potato_and_meat_pie_0",
+      "y": 270
+    }
+  }
+}

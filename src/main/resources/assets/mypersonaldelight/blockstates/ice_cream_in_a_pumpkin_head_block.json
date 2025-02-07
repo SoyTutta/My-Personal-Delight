@@ -1,0 +1,2395 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "east",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/ice_cream_golem_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/ice_cream_golem_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/ice_cream_golem_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/ice_cream_golem_0",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/ice_cream_golem_3"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/ice_cream_golem_2"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/ice_cream_golem_1"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/ice_cream_golem_0"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/ice_cream_golem_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/ice_cream_golem_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/ice_cream_golem_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/ice_cream_golem_0",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/ice_cream_golem_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/ice_cream_golem_2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/ice_cream_golem_1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/ice_cream_golem_0",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "pumpkin": "true",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/pumpkin_head_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "pumpkin": "true",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/pumpkin_head_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "pumpkin": "true",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/pumpkin_head_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "pumpkin": "true",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/pumpkin_head_0",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "pumpkin": "true",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/pumpkin_head_3"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "pumpkin": "true",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/pumpkin_head_2"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "pumpkin": "true",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/pumpkin_head_1"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "pumpkin": "true",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/pumpkin_head_0"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "pumpkin": "true",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/pumpkin_head_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "pumpkin": "true",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/pumpkin_head_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "pumpkin": "true",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/pumpkin_head_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "pumpkin": "true",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/pumpkin_head_0",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "pumpkin": "true",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/pumpkin_head_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "pumpkin": "true",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/pumpkin_head_2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "pumpkin": "true",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/pumpkin_head_1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "pumpkin": "true",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/pumpkin_head_0",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "0",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face0_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "0",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face0_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "0",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face0_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "0",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face0_0",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "0",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face0_3"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "0",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face0_2"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "0",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face0_1"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "0",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face0_0"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "0",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face0_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "0",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face0_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "0",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face0_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "0",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face0_0",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "0",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face0_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "0",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face0_2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "0",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face0_1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "0",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face0_0",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "1",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face1_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "1",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face1_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "1",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face1_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "1",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face1_0",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "1",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face1_3"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "1",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face1_2"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "1",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face1_1"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "1",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face1_0"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "1",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face1_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "1",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face1_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "1",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face1_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "1",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face1_0",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "1",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face1_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "1",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face1_2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "1",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face1_1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "1",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face1_0",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "2",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face2_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "2",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face2_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "2",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face2_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "2",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face2_0",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "2",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face2_3"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "2",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face2_2"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "2",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face2_1"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "2",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face2_0"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "2",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face2_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "2",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face2_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "2",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face2_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "2",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face2_0",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "2",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face2_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "2",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face2_2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "2",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face2_1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "2",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face2_0",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "3",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face3_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "3",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face3_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "3",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face3_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "3",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face3_0",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "3",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face3_3"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "3",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face3_2"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "3",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face3_1"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "3",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face3_0"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "3",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face3_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "3",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face3_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "3",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face3_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "3",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face3_0",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "3",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face3_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "3",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face3_2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "3",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face3_1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "3",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face3_0",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "4",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face4_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "4",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face4_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "4",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face4_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "4",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face4_0",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "4",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face4_3"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "4",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face4_2"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "4",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face4_1"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "4",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face4_0"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "4",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face4_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "4",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face4_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "4",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face4_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "4",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face4_0",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "4",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face4_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "4",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face4_2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "4",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face4_1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "4",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face4_0",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "5",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face5_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "5",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face5_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "5",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face5_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "5",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face5_0",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "5",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face5_3"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "5",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face5_2"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "5",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face5_1"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "5",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face5_0"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "5",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face5_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "5",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face5_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "5",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face5_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "5",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face5_0",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "5",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face5_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "5",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face5_2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "5",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face5_1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "5",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face5_0",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "6",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face6_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "6",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face6_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "6",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face6_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "6",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face6_0",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "6",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face6_3"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "6",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face6_2"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "6",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face6_1"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "6",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face6_0"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "6",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face6_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "6",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face6_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "6",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face6_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "6",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face6_0",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "6",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face6_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "6",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face6_2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "6",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face6_1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "6",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face6_0",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "7",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face7_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "7",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face7_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "7",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face7_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "7",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face7_0",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "7",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face7_3"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "7",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face7_2"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "7",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face7_1"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "7",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face7_0"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "7",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face7_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "7",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face7_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "7",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face7_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "7",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face7_0",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "7",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face7_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "7",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face7_2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "7",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face7_1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "7",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face7_0",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "8",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face8_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "8",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face8_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "8",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face8_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "8",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face8_0",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "8",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face8_3"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "8",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face8_2"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "8",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face8_1"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "8",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face8_0"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "8",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face8_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "8",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face8_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "8",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face8_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "8",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face8_0",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "8",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face8_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "8",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face8_2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "8",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face8_1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "8",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face8_0",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "9",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face9_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "9",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face9_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "9",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face9_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "9",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face9_0",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "9",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face9_3"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "9",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face9_2"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "9",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face9_1"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "9",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face9_0"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "9",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face9_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "9",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face9_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "9",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face9_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "9",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face9_0",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "9",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face9_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "9",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face9_2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "9",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face9_1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "9",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face9_0",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "10",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face10_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "10",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face10_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "10",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face10_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "10",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face10_0",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "10",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face10_3"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "10",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face10_2"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "10",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face10_1"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "10",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face10_0"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "10",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face10_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "10",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face10_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "10",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face10_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "10",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face10_0",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "10",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face10_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "10",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face10_2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "10",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face10_1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "10",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face10_0",
+        "y": 270
+      }
+    },{
+      "when": {
+        "facing": "east",
+        "face": "11",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face11_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "11",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face11_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "11",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face11_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "face": "11",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face11_0",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "11",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face11_3"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "11",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face11_2"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "11",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face11_1"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "face": "11",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face11_0"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "11",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face11_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "11",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face11_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "11",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face11_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "face": "11",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face11_0",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "11",
+        "bites": "3"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face11_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "11",
+        "bites": "2"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face11_2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "11",
+        "bites": "1"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face11_1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "face": "11",
+        "bites": "0"
+      },
+      "apply": {
+        "model": "mypersonaldelight:block/ice_cream_in_a_pumpkin/faces/ice_cream_face11_0",
+        "y": 270
+      }
+    }
+  ]
+}

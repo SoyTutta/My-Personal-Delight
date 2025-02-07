@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "mypersonaldelight:slimecube"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "mypersonaldelight:squishmallow"
+  }
+}

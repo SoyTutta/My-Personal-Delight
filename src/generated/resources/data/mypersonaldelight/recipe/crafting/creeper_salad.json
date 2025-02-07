@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:gunpowders"
+    },
+    {
+      "item": "mypersonaldelight:mint_lettuce"
+    },
+    {
+      "item": "mypersonaldelight:mint_lettuce"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "mypersonaldelight:creeper_salad"
+  }
+}

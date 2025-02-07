@@ -1,0 +1,27 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 400,
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "item": "mypersonaldelight:mashed_potato"
+    },
+    {
+      "item": "farmersdelight:minced_beef"
+    },
+    {
+      "item": "farmersdelight:minced_beef"
+    },
+    {
+      "tag": "c:foods/onion"
+    },
+    {
+      "item": "mypersonaldelight:mashed_potato"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "mypersonaldelight:potato_and_meat_pie"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:foods/bread"
+    },
+    {
+      "item": "mypersonaldelight:ancient_boiled_egg"
+    },
+    {
+      "item": "mypersonaldelight:ancient_boiled_egg"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "mypersonaldelight:ancient_egg_sandwich"
+  }
+}

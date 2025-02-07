@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:glow_berries"
+    },
+    "-": {
+      "item": "minecraft:stick"
+    },
+    "i": {
+      "item": "minecraft:ice"
+    }
+  },
+  "pattern": [
+    " ##",
+    "i##",
+    "-i "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mypersonaldelight:glow_berries_popsicle"
+  }
+}

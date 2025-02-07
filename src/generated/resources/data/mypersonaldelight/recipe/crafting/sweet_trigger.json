@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "mypersonaldelight:mint_lettuce"
+    },
+    {
+      "item": "mypersonaldelight:mint_lettuce"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "mypersonaldelight:sweet_trigger"
+  }
+}

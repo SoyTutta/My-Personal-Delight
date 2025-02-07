@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "mypersonaldelight:raw_elder_guardian_tail"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 3,
+        "id": "mypersonaldelight:raw_elder_guardian_slice"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knife"
+  }
+}

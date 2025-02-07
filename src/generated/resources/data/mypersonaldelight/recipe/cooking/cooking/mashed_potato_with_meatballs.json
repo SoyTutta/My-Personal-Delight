@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "farmersdelight:minced_beef"
+    },
+    {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    {
+      "item": "mypersonaldelight:mashed_potato"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "mypersonaldelight:mashed_potato_with_meatballs"
+  }
+}
