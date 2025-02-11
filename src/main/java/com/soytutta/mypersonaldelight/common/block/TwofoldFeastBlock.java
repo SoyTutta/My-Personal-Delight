@@ -19,11 +19,13 @@ import java.util.function.Supplier;
 public abstract class TwofoldFeastBlock extends FeastBlock {
     public final Supplier<Item> altServingOneItem;
     public final int altServingOneCount;
+    public final int ServingCount;
 
-    public TwofoldFeastBlock(Properties properties, Supplier<Item> altServingOneItem, int altServingOneCount, Supplier<Item> servingItem, boolean hasLeftovers) {
+    public TwofoldFeastBlock(Properties properties, Supplier<Item> altServingOneItem, int altServingOneCount, Supplier<Item> servingItem, int ServingCount, boolean hasLeftovers) {
         super(properties, servingItem, hasLeftovers);
         this.altServingOneItem = altServingOneItem;
         this.altServingOneCount = altServingOneCount;
+        this.ServingCount = ServingCount;
     }
 
     public ItemStack getaltServingOneItem(BlockState state) {

@@ -18,7 +18,7 @@ public class MPDBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(Registries.BLOCK, "mypersonaldelight");
     // Feasts
     public static final Supplier<Block> ANCIENT_SOFT_BOILED_EGG_AND_BREADS_BLOCK = BLOCKS.register("ancient_soft-boiled_egg_and_breads_block",
-            () -> new AncientSoftBoiledEggBlock(Block.Properties.ofFullCopy(Blocks.CAKE), MPDItems.PLATE_OF_ANCIENT_SOFT_BOILED_EGG_AND_BREAD,4, MPDItems.ANCIENT_EGG_SANDWICH, true));
+            () -> new AncientSoftBoiledEggBlock(Block.Properties.ofFullCopy(Blocks.CAKE), MPDItems.PLATE_OF_ANCIENT_SOFT_BOILED_EGG_AND_BREAD,4, MPDItems.ANCIENT_EGG_SANDWICH, 4, true));
     public static final Supplier<Block> POTATO_AND_MEAT_PIE_BLOCK = BLOCKS.register("potato_and_meat_pie_block",
             () -> new PotatoAndMeatPieBlock(Block.Properties.ofFullCopy(Blocks.CAKE), MPDItems.PLATE_OF_POTATO_AND_MEAT_PIE, true));
     public static final Supplier<Block> MINT_ROULETTE_BLOCK = BLOCKS.register("mint_roulette_block",
@@ -26,8 +26,8 @@ public class MPDBlocks {
     public static final Supplier<Block> ICE_CREAM_IN_A_PUMPKIN_HEAD_BLOCK = BLOCKS.register("ice_cream_in_a_pumpkin_head_block",
             () -> new SnowGolemFeastBlock(Block.Properties.ofFullCopy(Blocks.CAKE), MPDItems.PUMPKIN_HEAD_SLICE, ModItems.PUMPKIN_SLICE));
     public static final Supplier<Block> POTLUCK_SOUP_BLOCK = BLOCKS.register("potluck_soup_block",
-            () -> new PotLuckSoupBlock(Block.Properties.ofFullCopy(Blocks.CAKE), MPDItems.FIRST_PLATE_OF_POTLUCK_SOUP, 1, MPDItems.PLATE_OF_POTLUCK_SOUP, 3, MPDItems.TAIL_IN_PLATE_OF_POTLUCK_SOUP,true));
+            () -> new PotLuckSoupBlock(Block.Properties.ofFullCopy(Blocks.CAKE), MPDItems.FIRST_PLATE_OF_POTLUCK_SOUP, 1, MPDItems.PLATE_OF_POTLUCK_SOUP, 3, MPDItems.TAIL_IN_PLATE_OF_POTLUCK_SOUP, 1, true));
     public static final Supplier<Block> SUCKLING_PIG_WITH_VEGETABLES_BLOCK = BLOCKS.register("suckling_pig_with_vegetables_block",
-            () -> new SucklingPigWithVegetablesBlock(Block.Properties.ofFullCopy(Blocks.CAKE), MPDItems.PLATE_OF_MUZZLE_WITH_VEGETABLES, 1, MPDItems.PLATE_OF_HAM_WITH_VEGETABLES, 2, MPDItems.PLATE_OF_SUCKLING_PIG_WITH_VEGETABLES,true));
+            () -> new SucklingPigWithVegetablesBlock(Block.Properties.ofFullCopy(Blocks.CAKE), MPDItems.PLATE_OF_MUZZLE_WITH_VEGETABLES, 1, MPDItems.PLATE_OF_HAM_WITH_VEGETABLES, 2, MPDItems.PLATE_OF_SUCKLING_PIG_WITH_VEGETABLES, 2,true));
 
 }

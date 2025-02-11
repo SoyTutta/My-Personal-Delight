@@ -16,15 +16,15 @@
       "model": "mypersonaldelight:block/potato_and_meat_pie_3",
       "y": 90
     },
-    "facing=east,servings=4,extraservings=0": {
+    "facing=east,servings=4": {
       "model": "mypersonaldelight:block/potato_and_meat_pie_2",
       "y": 90
     },
-    "facing=east,servings=4,extraservings=1": {
+    "facing=east,servings=5": {
       "model": "mypersonaldelight:block/potato_and_meat_pie_1",
       "y": 90
     },
-    "facing=east,servings=4,extraservings=2": {
+    "facing=east,servings=6": {
       "model": "mypersonaldelight:block/potato_and_meat_pie_0",
       "y": 90
     },
@@ -40,13 +40,13 @@
     "facing=north,servings=3": {
       "model": "mypersonaldelight:block/potato_and_meat_pie_3"
     },
-    "facing=north,servings=4,extraservings=0": {
+    "facing=north,servings=4": {
       "model": "mypersonaldelight:block/potato_and_meat_pie_2"
     },
-    "facing=north,servings=4,extraservings=1": {
+    "facing=north,servings=5": {
       "model": "mypersonaldelight:block/potato_and_meat_pie_1"
     },
-    "facing=north,servings=4,extraservings=2": {
+    "facing=north,servings=6": {
       "model": "mypersonaldelight:block/potato_and_meat_pie_0"
     },
     "facing=south,servings=0": {
@@ -65,15 +65,15 @@
       "model": "mypersonaldelight:block/potato_and_meat_pie_3",
       "y": 180
     },
-    "facing=south,servings=4,extraservings=0": {
+    "facing=south,servings=4": {
       "model": "mypersonaldelight:block/potato_and_meat_pie_2",
       "y": 180
     },
-    "facing=south,servings=4,extraservings=1": {
+    "facing=south,servings=5": {
       "model": "mypersonaldelight:block/potato_and_meat_pie_1",
       "y": 180
     },
-    "facing=south,servings=4,extraservings=2": {
+    "facing=south,servings=6": {
       "model": "mypersonaldelight:block/potato_and_meat_pie_0",
       "y": 180
     },
@@ -93,15 +93,15 @@
       "model": "mypersonaldelight:block/potato_and_meat_pie_3",
       "y": 270
     },
-    "facing=west,servings=4,extraservings=0": {
+    "facing=west,servings=4": {
       "model": "mypersonaldelight:block/potato_and_meat_pie_2",
       "y": 270
     },
-    "facing=west,servings=4,extraservings=1": {
+    "facing=west,servings=5": {
       "model": "mypersonaldelight:block/potato_and_meat_pie_1",
       "y": 270
     },
-    "facing=west,servings=4,extraservings=2": {
+    "facing=west,servings=6": {
       "model": "mypersonaldelight:block/potato_and_meat_pie_0",
       "y": 270
     }

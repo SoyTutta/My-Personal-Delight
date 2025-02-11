@@ -13,12 +13,15 @@ import net.minecraft.world.entity.monster.Creeper;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
+import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.VoxelShape;
 import vectorwing.farmersdelight.common.block.FeastBlock;
 import vectorwing.farmersdelight.common.tag.ModTags;
 
@@ -26,11 +29,23 @@ import java.util.function.Supplier;
 
 public class MintRouletteBlock extends FeastBlock {
     public static final BooleanProperty ACTIVE = BooleanProperty.create("active");
+    protected static final VoxelShape[] FEAST_SHAPES= new VoxelShape[]{
+            Block.box(4, 0, 4, 12, 3, 12),
+            Block.box(4, 0, 4, 12, 5, 12),
+            Block.box(4, 0, 4, 12, 5, 12),
+            Block.box(4, 0, 4, 12, 7, 12),
+            Block.box(4, 0, 4, 12, 9, 12)
+};
 
     public MintRouletteBlock(Properties properties, Supplier<Item> servingItem, boolean hasLeftovers) {
         super(properties, servingItem, hasLeftovers);
 
         this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(getServingsProperty(), getMaxServings()).setValue(ACTIVE,true));
+    }
+
+    @Override
+    public VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
+        return FEAST_SHAPES[state.getValue(SERVINGS)];
     }
 
     @Override

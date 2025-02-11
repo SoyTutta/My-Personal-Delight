@@ -34,8 +34,8 @@ public class SucklingPigWithVegetablesBlock extends ThreefoldFeastBlock{
     public static final IntegerProperty EXTRASERVINGS = IntegerProperty.create("extraservings", 0, 1);
     public static final EnumProperty<BedPart> PART = BlockStateProperties.BED_PART;
 
-    public SucklingPigWithVegetablesBlock(Properties properties, Supplier<Item> altServingOneItem, int altServingOneCount, Supplier<Item> altServingTwoItem, int altServingTwoCount, Supplier<Item> servingItem, boolean hasLeftovers) {
-        super(properties, altServingOneItem, altServingOneCount, altServingTwoItem, altServingTwoCount, servingItem, hasLeftovers);
+    public SucklingPigWithVegetablesBlock(Properties properties, Supplier<Item> altServingOneItem, int altServingOneCount, Supplier<Item> altServingTwoItem, int altServingTwoCount, Supplier<Item> servingItem, int ServingCount, boolean hasLeftovers) {
+        super(properties, altServingOneItem, altServingOneCount, altServingTwoItem, altServingTwoCount, servingItem, ServingCount, hasLeftovers);
         this.registerDefaultState(this.stateDefinition.any().setValue(PART, BedPart.HEAD).setValue(FACING, Direction.NORTH).setValue(getServingsProperty(), getMaxServings()).setValue(getExtraServingsProperty(), 1));
     }
 

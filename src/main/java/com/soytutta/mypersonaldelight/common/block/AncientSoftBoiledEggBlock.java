@@ -12,8 +12,8 @@ import java.util.function.Supplier;
 
 public class AncientSoftBoiledEggBlock extends TwofoldFeastBlock{
 
-    public AncientSoftBoiledEggBlock(Properties properties, Supplier<Item> altServingOneItem, int altServingOneCount, Supplier<Item> servingItem, boolean hasLeftovers) {
-        super(properties, altServingOneItem, altServingOneCount, servingItem, hasLeftovers);
+    public AncientSoftBoiledEggBlock(Properties properties, Supplier<Item> altServingOneItem, int altServingOneCount, Supplier<Item> servingItem, int ServingCount, boolean hasLeftovers) {
+        super(properties, altServingOneItem, altServingOneCount, servingItem, ServingCount, hasLeftovers);
     }
 
     @Override
