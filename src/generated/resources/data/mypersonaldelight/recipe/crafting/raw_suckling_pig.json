@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:porkchop"
+    },
+    "H": {
+      "item": "farmersdelight:ham"
+    },
+    "b": {
+      "item": "farmersdelight:bacon"
+    }
+  },
+  "pattern": [
+    "HBH",
+    "bBb"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mypersonaldelight:raw_suckling_pig"
+  }
+}

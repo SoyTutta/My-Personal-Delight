@@ -161,6 +161,13 @@ public class MPDCookingRecipes {
                 .setRecipeBookTab(CookingPotRecipeBookTab.MISC)
                 .build(output, "mypersonaldelight:cooking/cure_disgusting_stew_alt");
 
+        CookingPotRecipeBuilder.cookingPotRecipe(MPDItems.SUCKLING_PIG_WITH_VEGETABLES.get(), 1, 400, 2.0F, Items.BOWL)
+                .addIngredient(MPDItems.RAW_SUCKLING_PIG.get())
+                .addIngredient(Tags.Items.CROPS_POTATO).addIngredient(Tags.Items.CROPS_POTATO)
+                .addIngredient(CommonTags.FOODS_TOMATO).addIngredient(CommonTags.FOODS_CABBAGE).addIngredient(net.neoforged.neoforge.common.Tags.Items.CROPS_CARROT)
+                .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
+                .build(output, "mypersonaldelight:cooking/suckling_pig_with_vegetables");
+
     }
 
     private static Ingredient vegetablesPatch() {

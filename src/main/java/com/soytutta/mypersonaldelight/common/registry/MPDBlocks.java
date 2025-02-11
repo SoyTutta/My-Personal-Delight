@@ -27,5 +27,7 @@ public class MPDBlocks {
             () -> new SnowGolemFeastBlock(Block.Properties.ofFullCopy(Blocks.CAKE), MPDItems.PUMPKIN_HEAD_SLICE, ModItems.PUMPKIN_SLICE));
     public static final Supplier<Block> POTLUCK_SOUP_BLOCK = BLOCKS.register("potluck_soup_block",
             () -> new PotLuckSoupBlock(Block.Properties.ofFullCopy(Blocks.CAKE), MPDItems.FIRST_PLATE_OF_POTLUCK_SOUP, 1, MPDItems.PLATE_OF_POTLUCK_SOUP, 3, MPDItems.TAIL_IN_PLATE_OF_POTLUCK_SOUP,true));
+    public static final Supplier<Block> SUCKLING_PIG_WITH_VEGETABLES_BLOCK = BLOCKS.register("suckling_pig_with_vegetables_block",
+            () -> new SucklingPigWithVegetablesBlock(Block.Properties.ofFullCopy(Blocks.CAKE), MPDItems.PLATE_OF_MUZZLE_WITH_VEGETABLES, 1, MPDItems.PLATE_OF_HAM_WITH_VEGETABLES, 2, MPDItems.PLATE_OF_SUCKLING_PIG_WITH_VEGETABLES,true));
 
 }

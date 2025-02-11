@@ -250,6 +250,19 @@ public class MPDFoodValues
                 .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 300, 0, false, false), 1.0F)
                 .alwaysEdible().fast().build();
 
+        public static final FoodProperties PLATE_OF_MUZZLE_WITH_VEGETABLES = (new FoodProperties.Builder())
+                .nutrition(14).saturationModifier(0.9F)
+                .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, 7800, 0, false, false), 1.0F)
+                .build();
+        public static final FoodProperties PLATE_OF_HAM_WITH_VEGETABLES = (new FoodProperties.Builder())
+                .nutrition(14).saturationModifier(0.75F)
+                .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, 6000, 0, false, false), 1.0F)
+                .build();
+        public static final FoodProperties PLATE_OF_SUCKLING_PIG_WITH_VEGETABLES = (new FoodProperties.Builder())
+                .nutrition(12).saturationModifier(0.6F)
+                .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, 3600, 0, false, false), 1.0F)
+                .build();
+
         public static final FoodProperties ICE_CREAM_IN_A_PUMPKIN_HEAD = (new FoodProperties.Builder())
                 .nutrition(12).saturationModifier(0.6F)
                 .effect(() -> new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 1200, 0, false, false), 1.0F)

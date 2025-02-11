@@ -17,6 +17,12 @@ public class MPDCreativeTab {
                 .title(MPDTextUtils.getTranslation("itemGroup.main"))
                 .icon(MPDItems.ANCIENT_SOFT_BOILED_EGG_AND_BREADS.get()::getDefaultInstance)
                 .displayItems((parameters, output) -> {
+                    output.accept(MPDItems.RAW_SUCKLING_PIG.get());
+                    output.accept(MPDItems.SUCKLING_PIG_WITH_VEGETABLES.get());
+                    output.accept(MPDItems.PLATE_OF_MUZZLE_WITH_VEGETABLES.get());
+                    output.accept(MPDItems.PLATE_OF_HAM_WITH_VEGETABLES.get());
+                    output.accept(MPDItems.PLATE_OF_SUCKLING_PIG_WITH_VEGETABLES.get());
+
                     output.accept(MPDItems.RAW_BREADED_MEAT.get());
                     output.accept(MPDItems.COOKED_BREADED_MEAT.get());
                     output.accept(MPDItems.BREADED_MEAT_SANDWICH.get());

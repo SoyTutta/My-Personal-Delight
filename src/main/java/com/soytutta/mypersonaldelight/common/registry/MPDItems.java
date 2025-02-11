@@ -273,6 +273,22 @@ public class MPDItems {
     );
 
     /// Extra Delights
+    /// /// pig
+    public static final Supplier<Item> RAW_SUCKLING_PIG = ITEMS.register("raw_suckling_pig", ()  ->
+            new Item(basicItem().stacksTo(1))
+    );
+    public static final Supplier<Item> SUCKLING_PIG_WITH_VEGETABLES = ITEMS.register("suckling_pig_with_vegetables", ()  ->
+            new BlockItem(MPDBlocks.SUCKLING_PIG_WITH_VEGETABLES_BLOCK.get(), basicItem().stacksTo(1))
+    );
+    public static final Supplier<Item> PLATE_OF_MUZZLE_WITH_VEGETABLES = ITEMS.register("plate_of_muzzle_with_vegetables", ()  ->
+            new ConsumableItem(bowlFoodItem(MPDFoodValues.PLATE_OF_MUZZLE_WITH_VEGETABLES), true)
+    );
+    public static final Supplier<Item> PLATE_OF_HAM_WITH_VEGETABLES = ITEMS.register("plate_of_ham_with_vegetables", ()  ->
+            new ConsumableItem(bowlFoodItem(MPDFoodValues.PLATE_OF_HAM_WITH_VEGETABLES), true)
+    );
+    public static final Supplier<Item> PLATE_OF_SUCKLING_PIG_WITH_VEGETABLES = ITEMS.register("plate_of_suckling_pig_with_vegetables", ()  ->
+            new ConsumableItem(bowlFoodItem(MPDFoodValues.PLATE_OF_SUCKLING_PIG_WITH_VEGETABLES), true)
+    );
     /// /// pops
     public static final Supplier<Item> GLISTERING_MELON_POPSICLE = ITEMS.register("glistering_melon_popsicle", ()  ->
             new PopsicleItem(foodItem(MPDFoodValues.GLISTERING_MELON_POPSICLE).rarity(Rarity.UNCOMMON))

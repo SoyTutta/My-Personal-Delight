@@ -241,6 +241,15 @@ public class MPDCraftingRecipes {
                 .requires(MPDItems.ROTTEN_MINCED_BEEF.get())
                 .unlockedBy("has_rotten_minced_beef", InventoryChangeTrigger.TriggerInstance.hasItems(MPDItems.ROTTEN_MINCED_BEEF.get()))
                 .save(output, "mypersonaldelight:crafting/rotten_sausage");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, MPDItems.RAW_SUCKLING_PIG.get(), 1)
+                .pattern("HBH")
+                .pattern("bBb")
+                .define('H', ModItems.HAM.get())
+                .define('B', Items.PORKCHOP).define('b', ModItems.BACON.get())
+                .unlockedBy("has_ham", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.HAM.get()))
+                .save(output, "mypersonaldelight:crafting/raw_suckling_pig");
+
     }
 
     private static Ingredient vegetablesPatch() {
