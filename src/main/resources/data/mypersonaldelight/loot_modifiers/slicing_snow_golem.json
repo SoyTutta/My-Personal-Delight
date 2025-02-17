@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:pastry_slicing",
+  "conditions": [
+    {
+      "condition": "minecraft:match_tool",
+      "predicate": {
+        "items": "#farmersdelight:tools/knives"
+      }
+    },
+    {
+      "condition": "minecraft:block_state_property",
+      "block": "mypersonaldelight:ice_cream_in_a_pumpkin_head_block",
+      "properties": {
+        "pumpkin": "true"
+      }
+    }
+  ],
+  "slice": "mypersonaldelight:pumpkin_head_slice"
+}

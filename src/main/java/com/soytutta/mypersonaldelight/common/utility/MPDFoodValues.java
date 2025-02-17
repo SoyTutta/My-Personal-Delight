@@ -163,6 +163,7 @@ public class MPDFoodValues
         public static final FoodProperties ANCIENT_SALAD = (new FoodProperties.Builder())
                 .nutrition(12).saturationModifier(0.7F)
                 .effect(() -> new MobEffectInstance(MobEffects.HEALTH_BOOST, 600, 1, false, false), 1.0F)
+                .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 300, 1, false, false), 1.0F)
                 .build();
         public static final FoodProperties ANCIENT_EGG_SANDWICH = (new FoodProperties.Builder())
                 .nutrition(14).saturationModifier(0.7F)

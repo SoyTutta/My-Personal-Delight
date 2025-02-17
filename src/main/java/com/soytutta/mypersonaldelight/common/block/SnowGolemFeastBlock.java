@@ -69,13 +69,13 @@ public class SnowGolemFeastBlock extends PieBlock {
 
     @Override
     public ItemInteractionResult useItemOn(ItemStack heldStack, BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit) {
-        if (heldStack.is(ModTags.KNIVES)) {
+        if (heldStack.is(ModTags.KNIVES) && state.getValue(PUMPKIN)) {
             return this.cutSlice(level, pos, state, player);
         }
-        if (heldStack.is(net.neoforged.neoforge.common.Tags.Items.TOOLS_SHEAR)) {
+        if (heldStack.is(net.neoforged.neoforge.common.Tags.Items.TOOLS_SHEAR) && state.getValue(PUMPKIN)) {
             return this.chopPumpkin(level, pos, state, player);
         }
-        if (player.isShiftKeyDown() && heldStack.getItem() == this.IceCreamContainer.get()) {
+        if (heldStack.getItem() == this.IceCreamContainer.get() && !state.getValue(PUMPKIN)) {
             return this.cutSlice(level, pos, state, player);
         }
 
