@@ -97,6 +97,12 @@ public class MPDItems {
     public static final Supplier<Item> ROTTEN_SAUSAGE = ITEMS.register("rotten_sausage", ()  ->
             new ConsumableItem(foodItem(MPDFoodValues.ROTTEN_SAUSAGE))
     );
+    public static final Supplier<Item> ROTTEN_MEAT_ON_A_BONE = ITEMS.register("rotten_meat_on_a_bone", ()  ->
+            new ConsumableItem(foodItem(MPDFoodValues.ROTTEN_MEAT_ON_A_BONE).attributes(SwordItem.createAttributes(Tiers.WOOD, 2, -2.0F)))
+    );
+    public static final Supplier<Item> ROTTEN_HAM = ITEMS.register("rotten_ham", ()  ->
+            new ConsumableItem(foodItem(MPDFoodValues.ROTTEN_HAM))
+    );
     /// /// meals
     public static final Supplier<Item> DISGUSTING_STEW = ITEMS.register("disgusting_stew", ()  ->
             new ConsumableItem(bowlFoodItem(MPDFoodValues.DISGUSTING_STEW), true)
@@ -260,6 +266,9 @@ public class MPDItems {
     );
     public static final Supplier<Item> BREADED_MEAT_WITH_MASHED_POTATO = ITEMS.register("breaded_meat_with_mashed_potato", ()  ->
             new ConsumableItem(bowlFoodItem(MPDFoodValues.BREADED_MEAT_WITH_MASHED_POTATO), true)
+    );
+    public static final Supplier<Item> BREADED_MEAT_WITH_PASTA = ITEMS.register("breaded_meat_with_pasta", ()  ->
+            new ConsumableItem(bowlFoodItem(MPDFoodValues.BREADED_MEAT_WITH_PASTA), true)
     );
     public static final Supplier<Item> MASHED_POTATO_WITH_MEATBALLS = ITEMS.register("mashed_potato_with_meatballs", ()  ->
             new ConsumableItem(bowlFoodItem(MPDFoodValues.MASHED_POTATO_WITH_MEATBALLS), true)

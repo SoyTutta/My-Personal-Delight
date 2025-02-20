@@ -116,11 +116,13 @@ public class MPDCreativeTab {
                     output.accept(MPDItems.PLATE_OF_ANCIENT_SOFT_BOILED_EGG_AND_BREAD.get());
 
                     output.accept(MPDItems.BROKEN_BONES.get());
+                    output.accept(MPDItems.ROTTEN_HAM.get());
                     output.accept(MPDItems.ROTTEN_BACON.get());
                     output.accept(MPDItems.ROTTEN_MINCED_BEEF.get());
                     output.accept(MPDItems.ROTTEN_MUTTON_CHOPS.get());
                     output.accept(MPDItems.ROTTEN_CHICKEN_CUTS.get());
                     output.accept(MPDItems.ROTTEN_SAUSAGE.get());
+                    output.accept(MPDItems.ROTTEN_MEAT_ON_A_BONE.get());
                     output.accept(MPDItems.DISGUSTING_STEW.get());
                 }
         ).build()

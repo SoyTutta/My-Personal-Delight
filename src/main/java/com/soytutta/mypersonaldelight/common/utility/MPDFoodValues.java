@@ -64,6 +64,14 @@ public class MPDFoodValues
                 .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 3600, 0, false, false), 0.5F)
                 .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 1200, 0, false, false), 0.5F)
                 .build();
+        public static final FoodProperties ROTTEN_MEAT_ON_A_BONE = (new FoodProperties.Builder())
+                .nutrition(6).saturationModifier(0.4F)
+                .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 1200, 0, true, true), 0.75F)
+                .build();
+        public static final FoodProperties ROTTEN_HAM = (new FoodProperties.Builder())
+                .nutrition(8).saturationModifier(0.5F)
+                .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 1200, 0, true, true), 0.75F)
+                .build();
 
         public static final FoodProperties RAW_GUARDIAN_TAIL = (new FoodProperties.Builder())
                 .nutrition(6).saturationModifier(0.3F)
@@ -208,6 +216,10 @@ public class MPDFoodValues
                 .build();
         public static final FoodProperties BREADED_MEAT_WITH_MASHED_POTATO = (new FoodProperties.Builder())
                 .nutrition(12).saturationModifier(0.9F)
+                .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, 1800, 0, false, false), 1.0F)
+                .build();
+        public static final FoodProperties BREADED_MEAT_WITH_PASTA = (new FoodProperties.Builder())
+                .nutrition(13).saturationModifier(0.9F)
                 .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, 1800, 0, false, false), 1.0F)
                 .build();
         public static final FoodProperties MASHED_POTATO_WITH_MEATBALLS = (new FoodProperties.Builder())

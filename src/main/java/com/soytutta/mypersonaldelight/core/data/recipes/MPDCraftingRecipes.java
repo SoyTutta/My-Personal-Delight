@@ -222,6 +222,14 @@ public class MPDCraftingRecipes {
                 .unlockedBy("has_ancient_eggs", InventoryChangeTrigger.TriggerInstance.hasItems(MPDItems.ANCIENT_BOILED_EGG.get()))
                 .save(output, "mypersonaldelight:crafting/ancient_egg_sandwich");
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, MPDItems.ROTTEN_MEAT_ON_A_BONE.get())
+                .requires(Items.BONE)
+                .requires(MyCommonTags.ROTTEN_MEALS)
+                .requires(MyCommonTags.ROTTEN_MEALS)
+                .requires(MyCommonTags.ROTTEN_MEALS)
+                .unlockedBy("has_guardian_slice", InventoryChangeTrigger.TriggerInstance.hasItems(MPDItems.COOKED_GUARDIAN_SLICE.get()))
+                .save(output, "mypersonaldelight:crafting/rotten_meat_on_a_bone");
+
         ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, MPDItems.ROTTEN_CHICKEN_CUTS.get())
                 .pattern("r")
                 .pattern("#")
@@ -240,7 +248,7 @@ public class MPDCraftingRecipes {
                 .requires(Items.STRING)
                 .requires(MPDItems.ROTTEN_MINCED_BEEF.get())
                 .unlockedBy("has_rotten_minced_beef", InventoryChangeTrigger.TriggerInstance.hasItems(MPDItems.ROTTEN_MINCED_BEEF.get()))
-                .save(output, "mypersonaldelight:crafting/rotten_sausage");
+                .save(output, "mynethersdelight:crafting/rotten_sausage");
 
         ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, MPDItems.RAW_SUCKLING_PIG.get(), 1)
                 .pattern("HBH")

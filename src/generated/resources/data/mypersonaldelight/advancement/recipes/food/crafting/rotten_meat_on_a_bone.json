@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_rotten_minced_beef": {
+    "has_guardian_slice": {
       "conditions": {
         "items": [
           {
-            "items": "mypersonaldelight:rotten_minced_beef"
+            "items": "mypersonaldelight:cooked_guardian_slice"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "mypersonaldelight:crafting/rotten_sausage"
+        "recipe": "mypersonaldelight:crafting/rotten_meat_on_a_bone"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_rotten_minced_beef"
+      "has_guardian_slice"
     ]
   ],
   "rewards": {
     "recipes": [
-      "mypersonaldelight:crafting/rotten_sausage"
+      "mypersonaldelight:crafting/rotten_meat_on_a_bone"
     ]
   }
 }

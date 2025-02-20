@@ -57,6 +57,8 @@ public class MPDCuttingRecipes {
     private static void cuttingFoods(RecipeOutput output) {
         CuttingBoardRecipeBuilder.cuttingRecipe(Ingredient.of(Items.BONE), Ingredient.of(CommonTags.TOOLS_KNIFE), MPDItems.BROKEN_BONES.get(),3)
                 .build(output);
+        CuttingBoardRecipeBuilder.cuttingRecipe(Ingredient.of(MPDItems.ROTTEN_HAM.get()), Ingredient.of(CommonTags.TOOLS_KNIFE), MPDItems.ROTTEN_BACON.get(),4).addResult(Items.BONE_MEAL)
+                .build(output);
         CuttingBoardRecipeBuilder.cuttingRecipe(Ingredient.of(Items.ROTTEN_FLESH), Ingredient.of(CommonTags.TOOLS_KNIFE), MPDItems.ROTTEN_BACON.get())
                 .build(output);
         CuttingBoardRecipeBuilder.cuttingRecipe(Ingredient.of(MPDItems.ROTTEN_BACON.get()), Ingredient.of(CommonTags.TOOLS_KNIFE), MPDItems.ROTTEN_MINCED_BEEF.get())

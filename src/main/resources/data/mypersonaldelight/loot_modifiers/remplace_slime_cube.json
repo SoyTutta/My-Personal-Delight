@@ -1,0 +1,8 @@
+{
+  "type": "mypersonaldelight:remplace_item",
+  "conditions": [
+  ],
+  "entity": "minecraft:slime",
+  "item": "mypersonaldelight:slimecube",
+  "replaces": "minecraft:slime_ball"
+}

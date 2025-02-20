@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "mypersonaldelight:item/rotten_meat_on_a_bone"
+  }
+}

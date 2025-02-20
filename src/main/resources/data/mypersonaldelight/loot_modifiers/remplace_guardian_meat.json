@@ -1,0 +1,8 @@
+{
+  "type": "mypersonaldelight:remplace_item",
+  "conditions": [
+  ],
+  "entity": "minecraft:guardian",
+  "item": "mypersonaldelight:raw_guardian_slice",
+  "replaces": "minecraft:cod"
+}

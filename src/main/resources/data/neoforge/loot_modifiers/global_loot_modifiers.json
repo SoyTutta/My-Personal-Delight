@@ -1,6 +1,24 @@
 {
   "replace": false,
   "entries": [
-    "mypersonaldelight:slicing_snow_golem"
+    "mypersonaldelight:slicing_snow_golem",
+    "mypersonaldelight:scavenging_rotten_arm_from_zombie",
+    "mypersonaldelight:scavenging_rotten_ham_from_zoglin",
+    "mypersonaldelight:scavenging_piglin_bacon",
+    "mypersonaldelight:scavenging_extra_piglin_bacon",
+    "mypersonaldelight:scavenging_piglin_cooked_bacon",
+    "mypersonaldelight:scavenging_extra_piglin_cooked_bacon",
+    "mypersonaldelight:scavenging_rotten_bacon_from_zoglin_and_zombified_piglin",
+    "mypersonaldelight:scavenging_extra_rotten_bacon_from_zoglin_and_zombified_piglin",
+    "mypersonaldelight:remplace_slime_cube",
+    "mypersonaldelight:scavenging_extra_slime_cube",
+    "mypersonaldelight:scavenging_mint_lettuce",
+    "mypersonaldelight:scavenging_extra_mint_lettuce",
+    "mypersonaldelight:remplace_guardian_meat",
+    "mypersonaldelight:scavenging_extra_guardian_meat0",
+    "mypersonaldelight:scavenging_extra_guardian_meat1",
+    "mypersonaldelight:remplace_cooked_guardian_meat",
+    "mypersonaldelight:scavenging_extra_cooked_guardian_meat0",
+    "mypersonaldelight:scavenging_extra_cooked_guardian_meat1"
   ]
 }
