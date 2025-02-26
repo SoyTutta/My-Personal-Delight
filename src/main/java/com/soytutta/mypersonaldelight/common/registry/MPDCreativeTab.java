@@ -17,6 +17,10 @@ public class MPDCreativeTab {
                 .title(MPDTextUtils.getTranslation("itemGroup.main"))
                 .icon(MPDItems.ANCIENT_SOFT_BOILED_EGG_AND_BREADS.get()::getDefaultInstance)
                 .displayItems((parameters, output) -> {
+                    output.accept(MPDItems.RAW_FROG_LEG.get());
+                    output.accept(MPDItems.COOKED_FROG_LEG.get());
+                    output.accept(MPDItems.FROG_LEG_ON_A_STICK.get());
+
                     output.accept(MPDItems.RAW_SUCKLING_PIG.get());
                     output.accept(MPDItems.SUCKLING_PIG_WITH_VEGETABLES.get());
                     output.accept(MPDItems.PLATE_OF_MUZZLE_WITH_VEGETABLES.get());
@@ -33,6 +37,7 @@ public class MPDCreativeTab {
                     output.accept(MPDItems.FRIES_POTATOES.get());
                     output.accept(MPDItems.POTATO_OMELET.get());
                     output.accept(MPDItems.NAPOLITANA_WITH_FRIES_POTATOES.get());
+                    output.accept(MPDItems.BREADED_MEAT_WITH_PASTA.get());
                     output.accept(MPDItems.BREADED_MEAT_WITH_MASHED_POTATO.get());
                     output.accept(MPDItems.MASHED_POTATO_WITH_MEATBALLS.get());
                     output.accept(MPDItems.POTATO_AND_MEAT_PIE.get());

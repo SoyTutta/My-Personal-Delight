@@ -3,10 +3,6 @@
     "#c:foods/raw_guardian_meat",
     "#c:foods/cooked_guardian_meat",
     "#c:foods/raw_elder_guardian_meat",
-    "#c:foods/cooked_elder_guardian_meat",
-    "#c:foods/raw_guardian_tail",
-    "#c:foods/cooked_guardian_tail",
-    "#c:foods/raw_guardian_tail",
-    "#c:foods/cooked_guardian_tail"
+    "#c:foods/cooked_elder_guardian_meat"
   ]
 }

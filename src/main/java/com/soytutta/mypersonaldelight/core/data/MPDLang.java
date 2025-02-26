@@ -84,6 +84,21 @@ public class MPDLang extends LanguageProvider {
 
     private void addCustomTranslations() {
         this.add("mypersonaldelight.itemGroup.main", "My Personal Delight");
+
+        this.add("item.minecraft.potion.effect.froggy_potion", "Potion of the Toad's Tempo");
+        this.add("item.minecraft.potion.effect.long_froggy_potion", "Potion of the Toad's Tempo");
+        this.add("item.minecraft.potion.effect.strong_froggy_potion", "Potion of the Toad's Tempo");
+        this.add("item.minecraft.splash_potion.effect.froggy_potion", "Splash Potion of the Toad's Tempo");
+        this.add("item.minecraft.splash_potion.effect.long_froggy_potion", "Splash Potion of the Toad's Tempo");
+        this.add("item.minecraft.splash_potion.effect.strong_froggy_potion", "Splash Potion of the Toad's Tempo");
+        this.add("item.minecraft.lingering_potion.effect.froggy_potion", "Lingering Potion of the Toad's Tempo");
+        this.add("item.minecraft.lingering_potion.effect.long_froggy_potion", "Lingering Potion of the Toad's Tempo");
+        this.add("item.minecraft.lingering_potion.effect.strong_froggy_potion", "Lingering Potion of the Toad's Tempo");
+
+        this.add("item.minecraft.tipped_arrow.effect.froggy_potion", "Arrow of the Toad's Tempo");
+        this.add("item.minecraft.tipped_arrow.effect.long_froggy_potion", "Arrow of the Toad's Tempo");
+        this.add("item.minecraft.tipped_arrow.effect.strong_froggy_potion", "Arrow of the Toad's Tempo");
+
         this.add("item.mypersonaldelight.slime_jelly_slice.effect.empty", "Slime Jelly Slice");
         this.add("mypersonaldelight.block.meat_excess.use_container", "This needs a few more Veggies!");
         this.add("mypersonaldelight.block.veggies_excess.use_container", "This needs a few more Meat!");
@@ -93,6 +108,7 @@ public class MPDLang extends LanguageProvider {
         this.add("mypersonaldelight.block.feast.need_knives", "Knive");
         this.add("mypersonaldelight.block.feast.space_required", "You need more space to serve this.");
         this.add("mypersonaldelight.block.snowgolemfeast.use_container", "You need a %s to eat this.");
+
     }
 
     @Override

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "frog_leg": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mypersonaldelight:raw_frog_leg"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "mypersonaldelight:frog_leg_from_smoking"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "frog_leg"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mypersonaldelight:frog_leg_from_smoking"
+    ]
+  }
+}

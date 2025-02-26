@@ -13,6 +13,20 @@
       }
     },
     {
+      "chance": 0.25,
+      "item": {
+        "count": 2,
+        "id": "mypersonaldelight:raw_guardian_slice"
+      }
+    },
+    {
+      "chance": 0.25,
+      "item": {
+        "count": 2,
+        "id": "mypersonaldelight:raw_guardian_slice"
+      }
+    },
+    {
       "item": {
         "count": 1,
         "id": "mypersonaldelight:raw_guardian_tail"

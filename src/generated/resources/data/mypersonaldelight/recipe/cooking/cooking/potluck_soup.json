@@ -8,7 +8,7 @@
   "experience": 2.0,
   "ingredients": [
     {
-      "tag": "c:foods/any_guardian_tails"
+      "tag": "c:foods/guardian_tails"
     },
     {
       "tag": "c:foods/any_guardian_meats"

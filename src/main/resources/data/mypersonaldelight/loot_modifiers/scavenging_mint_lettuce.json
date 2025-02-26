@@ -3,6 +3,17 @@
   "conditions": [
     {
       "condition": "minecraft:entity_properties",
+      "entity": "attacker",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": "#farmersdelight:tools/knives"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
         "flags": {

@@ -1,8 +1,6 @@
 {
   "values": [
-    "#c:foods/raw_guardian_tail",
-    "#c:foods/cooked_guardian_tail",
-    "#c:foods/raw_guardian_tail",
-    "#c:foods/cooked_guardian_tail"
+    "#c:foods/guardian_tails",
+    "#c:foods/elder_guardian_tails"
   ]
 }

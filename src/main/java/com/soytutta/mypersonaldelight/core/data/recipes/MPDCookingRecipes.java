@@ -79,19 +79,19 @@ public class MPDCookingRecipes {
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .build(output, "mypersonaldelight:cooking/slime_dumplings");
         CookingPotRecipeBuilder.cookingPotRecipe(MPDItems.STICKY_GREEN_NOODLES.get(), 1, 400, 1.0F)
-                .addIngredient(CommonTags.FOODS_PASTA).addIngredient(MyCommonTags.FOODS_BOILED_EGG)
+                .addIngredient(CommonTags.FOODS_PASTA).addIngredient(CommonTags.FOODS_COOKED_EGG)
                 .addIngredient(MPDItems.SLIMECUBE.get(),2)
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .build(output, "mypersonaldelight:cooking/sticky_green_noodles");
 
         CookingPotRecipeBuilder.cookingPotRecipe(MPDItems.POTLUCK_SOUP.get(), 1, 400, 2.0F,MPDItems.GUARDIAN_HEAD.get())
-                .addIngredient(MyCommonTags.GUARDIAN_TAILS).addIngredient(Ingredient.of(MyCommonTags.GUARDIAN_MEATS),3)
+                .addIngredient(MyCommonTags.GUARDIAN_TAILS).addIngredient(Ingredient.of(MyCommonTags.ANY_GUARDIAN_MEATS),3)
                 .addIngredient(CommonTags.FOODS_ONION).addIngredient(CommonTags.FOODS_TOMATO)
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .build(output, "mypersonaldelight:cooking/potluck_soup");
         CookingPotRecipeBuilder.cookingPotRecipe(MPDItems.ELDER_POTLUCK_SOUP.get(), 1, 600, 4.0F,MPDItems.ELDER_GUARDIAN_HEAD.get())
-                .addIngredient(Ingredient.of(MPDItems.RAW_ELDER_GUARDIAN_TAIL.get(), MPDItems.SMOKED_ELDER_GUARDIAN_TAIL.get())).addIngredient(Ingredient.of(MyCommonTags.GUARDIAN_TAILS),2)
-                .addIngredient(MyCommonTags.GUARDIAN_MEATS).addIngredient(ModItems.ONION_CRATE.get()).addIngredient(ModItems.TOMATO_CRATE.get())
+                .addIngredient(MyCommonTags.ELDER_GUARDIAN_TAILS).addIngredient(Ingredient.of(MyCommonTags.ANY_GUARDIAN_TAILS),2)
+                .addIngredient(MyCommonTags.ANY_GUARDIAN_MEATS).addIngredient(ModItems.ONION_CRATE.get()).addIngredient(ModItems.TOMATO_CRATE.get())
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .build(output, "mypersonaldelight:cooking/elder_potluck_soup");
 
@@ -122,7 +122,18 @@ public class MPDCookingRecipes {
                 .unlockedByAnyIngredient(Items.SNIFFER_EGG)
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .build(output, "mypersonaldelight:cooking/ancient_soft-boiled_egg_and_breads");
+        CookingPotRecipeBuilder.cookingPotRecipe(MPDItems.BREADED_MEAT_WITH_PASTA.get(), 1, 200, 2.0F,Items.BOWL)
+                .addIngredient(CommonTags.FOODS_PASTA).addIngredient(Ingredient.of(MPDItems.COOKED_BREADED_MEAT.get(),MPDItems.RAW_BREADED_MEAT.get()))
+                .addIngredient(Tags.Items.EGGS)
+                .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
+                .build(output, "mypersonaldelight:cooking/breaded_meat_with_pasta");
 
+        CookingPotRecipeBuilder.cookingPotRecipe(ModItems.SMOKED_HAM.get(), 1, 400, 2.0F)
+                .addIngredient(Items.GHAST_TEAR)
+                .addIngredient(MPDItems.ROTTEN_HAM.get())
+                .addIngredient(Items.GLOWSTONE_DUST)
+                .setRecipeBookTab(CookingPotRecipeBookTab.MISC)
+                .build(output, "mypersonaldelight:cooking/cure_rotten_ham");
         CookingPotRecipeBuilder.cookingPotRecipe(ModItems.COOKED_BACON.get(), 4, 400, 2.0F)
                 .addIngredient(Items.GHAST_TEAR)
                 .addIngredient(MPDItems.ROTTEN_BACON.get(),4)

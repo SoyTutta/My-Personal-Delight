@@ -23,6 +23,7 @@ public class MPDSmeltingRecipes {
 
     public static void register(RecipeOutput output) {
         foodSmeltingRecipes("breaded_meat", Ingredient.of(MPDItems.RAW_BREADED_MEAT.get()), MPDItems.COOKED_BREADED_MEAT.get(), 0.35F, output);
+        foodSmeltingRecipes("frog_leg", Ingredient.of(MPDItems.RAW_FROG_LEG.get()), MPDItems.COOKED_FROG_LEG.get(), 0.35F, output);
         foodSmeltingRecipes("ancient_ribs", Ingredient.of(MPDItems.ANCIENT_RIBS.get()), MPDItems.COOKED_ANCIENT_RIBS.get(), 0.35F, output);
         foodSmeltingRecipes("guardian_slice", Ingredient.of(MPDItems.RAW_GUARDIAN_SLICE.get()), MPDItems.COOKED_GUARDIAN_SLICE.get(), 0.35F, output);
         foodSmeltingRecipes("elder_guardian_slice", Ingredient.of(MPDItems.RAW_ELDER_GUARDIAN_SLICE.get()), MPDItems.COOKED_ELDER_GUARDIAN_SLICE.get(), 0.35F, output);

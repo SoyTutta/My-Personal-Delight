@@ -118,7 +118,7 @@ public class MPDFoodValues
                 .build();
 
         public static final FoodProperties ELDER_GUARDIAN_GRILLED_ON_A_STICK = (new FoodProperties.Builder())
-                .nutrition(8).saturationModifier(0.8F)
+                .nutrition(9).saturationModifier(0.8F)
                 .build();
         public static final FoodProperties FIRST_PLATE_OF_ELDER_POTLUCK_SOUP = (new FoodProperties.Builder())
                 .nutrition(13).saturationModifier(0.80F)
@@ -229,6 +229,17 @@ public class MPDFoodValues
         public static final FoodProperties PLATE_OF_POTATO_AND_MEAT_PIE = (new FoodProperties.Builder())
                 .nutrition(14).saturationModifier(0.7F)
                 .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, 3200, 0, false, false), 1.0F)
+                .build();
+
+        public static final FoodProperties RAW_FROG_LEG = (new FoodProperties.Builder())
+                .nutrition(2).saturationModifier(0.3F)
+                .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.3F)
+                .fast().build();
+        public static final FoodProperties COOKED_FROG_LEG = (new FoodProperties.Builder())
+                .nutrition(4).saturationModifier(0.3F)
+                .fast().build();
+        public static final FoodProperties FROG_LEG_ON_A_STICK = (new FoodProperties.Builder())
+                .nutrition(8).saturationModifier(0.6F)
                 .build();
 
         public static final FoodProperties GLISTERING_MELON_POPSICLE = (new FoodProperties.Builder())

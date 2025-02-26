@@ -230,6 +230,12 @@ public class MPDCraftingRecipes {
                 .unlockedBy("has_guardian_slice", InventoryChangeTrigger.TriggerInstance.hasItems(MPDItems.COOKED_GUARDIAN_SLICE.get()))
                 .save(output, "mypersonaldelight:crafting/rotten_meat_on_a_bone");
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, MPDItems.FROG_LEG_ON_A_STICK.get())
+                .requires(Items.STICK)
+                .requires(MPDItems.COOKED_FROG_LEG.get(),2)
+                .unlockedBy("has_frog_leg", InventoryChangeTrigger.TriggerInstance.hasItems(MPDItems.RAW_FROG_LEG.get()))
+                .save(output, "mypersonaldelight:crafting/frog_legs_on_a_stick");
+
         ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, MPDItems.ROTTEN_CHICKEN_CUTS.get())
                 .pattern("r")
                 .pattern("#")

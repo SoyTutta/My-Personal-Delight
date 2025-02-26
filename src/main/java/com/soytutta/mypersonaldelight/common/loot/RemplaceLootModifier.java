@@ -16,25 +16,29 @@ import net.neoforged.neoforge.common.loot.IGlobalLootModifier;
 import net.neoforged.neoforge.common.loot.LootModifier;
 
 import javax.annotation.Nonnull;
+import java.util.List;
 import java.util.function.Supplier;
 
 public class RemplaceLootModifier extends LootModifier {
     private final Item replacedItem;
     private final Item newItem;
     private final EntityType<?> entity;
+    private final List<Item> additionalItemsToRemove;
 
     public static final Supplier<MapCodec<RemplaceLootModifier>> CODEC = Suppliers.memoize(() ->
             RecordCodecBuilder.mapCodec(inst -> codecStart(inst)
                     .and(BuiltInRegistries.ITEM.byNameCodec().fieldOf("replaces").forGetter(RemplaceLootModifier::getReplacedItem))
                     .and(BuiltInRegistries.ITEM.byNameCodec().fieldOf("item").forGetter(RemplaceLootModifier::getNewItem))
                     .and(BuiltInRegistries.ENTITY_TYPE.byNameCodec().fieldOf("entity").forGetter(RemplaceLootModifier::getEntity))
+                    .and(BuiltInRegistries.ITEM.byNameCodec().listOf().optionalFieldOf("remove", List.of()).forGetter(RemplaceLootModifier::getAdditionalItemsToRemove))
                     .apply(inst, RemplaceLootModifier::new)));
 
-    public RemplaceLootModifier(LootItemCondition[] conditionsIn, Item replacedItem, Item newItem, EntityType<?> entity) {
+    public RemplaceLootModifier(LootItemCondition[] conditionsIn, Item replacedItem, Item newItem, EntityType<?> entity, List<Item> additionalItemsToRemove) {
         super(conditionsIn);
         this.replacedItem = replacedItem;
         this.newItem = newItem;
         this.entity = entity;
+        this.additionalItemsToRemove = additionalItemsToRemove;
     }
 
     @Nonnull
@@ -46,8 +50,9 @@ public class RemplaceLootModifier extends LootModifier {
                     .filter(itemStack -> itemStack.getItem() == replacedItem)
                     .mapToInt(ItemStack::getCount)
                     .sum();
-            generatedLoot.removeIf(itemStack -> itemStack.getItem() == replacedItem);
+
             generatedLoot.add(new ItemStack(newItem, amountOfItems));
+            generatedLoot.removeIf(itemStack -> itemStack.getItem() == replacedItem || additionalItemsToRemove.contains(itemStack.getItem()));
         }
         return generatedLoot;
     }
@@ -67,5 +72,9 @@ public class RemplaceLootModifier extends LootModifier {
 
     public EntityType<?> getEntity() {
         return entity;
+    }
+
+    public List<Item> getAdditionalItemsToRemove() {
+        return additionalItemsToRemove;
     }
 }

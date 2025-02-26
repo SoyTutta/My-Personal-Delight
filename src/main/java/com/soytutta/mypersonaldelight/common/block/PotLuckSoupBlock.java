@@ -134,13 +134,13 @@ public class PotLuckSoupBlock extends ThreefoldFeastBlock implements SimpleWater
         if (!level.isClientSide()) {
             boolean isProcessed = false;
 
-            if (!isHeated(level, pos) && (heldStack.is(MyCommonTags.GUARDIAN_MEATS) || heldStack.is(CommonTags.FOODS_TOMATO) || heldStack.is(CommonTags.FOODS_ONION))) {
+            if (!isHeated(level, pos) && (heldStack.is(MyCommonTags.ANY_GUARDIAN_MEATS) || heldStack.is(CommonTags.FOODS_TOMATO) || heldStack.is(CommonTags.FOODS_ONION))) {
                 player.displayClientMessage(MPDTextUtils.getTranslation("block.needheat.use_container"), true);
                 isProcessed = true;
             }
 
-            if (heldStack.is(MyCommonTags.GUARDIAN_MEATS) && meat < getMaxMeat() && isHeated(level, pos)) {
-                int increment = heldStack.is(MyCommonTags.GUARDIAN_TAILS) ? getMaxMeat() : meat + 1;
+            if (heldStack.is(MyCommonTags.ANY_GUARDIAN_MEATS) && meat < getMaxMeat() && isHeated(level, pos)) {
+                int increment = heldStack.is(MyCommonTags.ANY_GUARDIAN_TAILS) ? getMaxMeat() : meat + 1;
                 state = addIngredient(player, state, pos, MEAT, heldStack, increment, level);
             } else if ((heldStack.is(CommonTags.FOODS_TOMATO) || heldStack.is(CommonTags.FOODS_ONION)) && veggies < getMaxVeggies() && isHeated(level, pos)) {
                 int increment = (veggies <= getMaxVeggies() - 2) ? 2 : 1;

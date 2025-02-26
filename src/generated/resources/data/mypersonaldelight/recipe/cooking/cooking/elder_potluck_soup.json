@@ -8,15 +8,7 @@
   "experience": 4.0,
   "ingredients": [
     {
-      "type": "neoforge:compound",
-      "children": [
-        {
-          "item": "mypersonaldelight:raw_elder_guardian_tail"
-        },
-        {
-          "item": "mypersonaldelight:smoked_elder_guardian_tail"
-        }
-      ]
+      "tag": "c:foods/elder_guardian_tails"
     },
     {
       "tag": "c:foods/any_guardian_tails"

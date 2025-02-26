@@ -98,7 +98,8 @@ public class MPDItems {
             new ConsumableItem(foodItem(MPDFoodValues.ROTTEN_SAUSAGE))
     );
     public static final Supplier<Item> ROTTEN_MEAT_ON_A_BONE = ITEMS.register("rotten_meat_on_a_bone", ()  ->
-            new ConsumableItem(foodItem(MPDFoodValues.ROTTEN_MEAT_ON_A_BONE).attributes(SwordItem.createAttributes(Tiers.WOOD, 2, -2.0F)))
+            new SwordItem(MPDTiers.ROTTEN, foodItem(MPDFoodValues.ROTTEN_MEAT_ON_A_BONE)
+                    .attributes(SwordItem.createAttributes(MPDTiers.ROTTEN, 3, -2.0F)))
     );
     public static final Supplier<Item> ROTTEN_HAM = ITEMS.register("rotten_ham", ()  ->
             new ConsumableItem(foodItem(MPDFoodValues.ROTTEN_HAM))
@@ -280,8 +281,17 @@ public class MPDItems {
     public static final Supplier<Item> PLATE_OF_POTATO_AND_MEAT_PIE = ITEMS.register("plate_of_potato_and_meat_pie", ()  ->
             new ConsumableItem(bowlFoodItem(MPDFoodValues.PLATE_OF_POTATO_AND_MEAT_PIE), true)
     );
-
     /// Extra Delights
+    /// /// frog
+    public static final Supplier<Item> RAW_FROG_LEG = ITEMS.register("raw_frog_leg", ()  ->
+            new ConsumableItem(foodItem(MPDFoodValues.RAW_FROG_LEG))
+    );
+    public static final Supplier<Item> COOKED_FROG_LEG = ITEMS.register("cooked_frog_leg", ()  ->
+            new ConsumableItem(foodItem(MPDFoodValues.COOKED_FROG_LEG))
+    );
+    public static final Supplier<Item> FROG_LEG_ON_A_STICK = ITEMS.register("frog_legs_on_a_stick", ()  ->
+            new ConsumableItem(foodItem(MPDFoodValues.FROG_LEG_ON_A_STICK))
+    );
     /// /// pig
     public static final Supplier<Item> RAW_SUCKLING_PIG = ITEMS.register("raw_suckling_pig", ()  ->
             new Item(basicItem().stacksTo(1))

@@ -23,23 +23,36 @@ public class MPDCuttingRecipes {
 
     private static void cuttingAnimalItems(RecipeOutput output) {
         CuttingBoardRecipeBuilder.cuttingRecipe(Ingredient.of(MPDItems.GUARDIAN.get()), Ingredient.of(CommonTags.TOOLS_KNIFE), MPDItems.GUARDIAN_HEAD.get())
+                .addResultWithChance(MPDItems.RAW_GUARDIAN_SLICE.get(), 0.25f,2)
+                .addResultWithChance(MPDItems.RAW_GUARDIAN_SLICE.get(), 0.25f,2)
                 .addResult(MPDItems.RAW_GUARDIAN_TAIL.get())
                 .build(output);
         CuttingBoardRecipeBuilder.cuttingRecipe(Ingredient.of(MPDItems.GUARDIAN_HEAD.get()), Ingredient.of(CommonTags.TOOLS_KNIFE), Items.PRISMARINE_SHARD, 3)
+                .addResult(Items.PRISMARINE_CRYSTALS, 2)
+                .addResultWithChance(Items.PRISMARINE_SHARD, 0.25f,1)
+                .addResultWithChance(Items.PRISMARINE_CRYSTALS, 0.25f,1)
                 .build(output);
         CuttingBoardRecipeBuilder.cuttingRecipe(Ingredient.of(MPDItems.RAW_GUARDIAN_TAIL.get()), Ingredient.of(CommonTags.TOOLS_KNIFE), MPDItems.RAW_GUARDIAN_SLICE.get(), 3)
+                .addResultWithChance(MPDItems.RAW_GUARDIAN_SLICE.get(), 0.25f,2)
                 .build(output);
         CuttingBoardRecipeBuilder.cuttingRecipe(Ingredient.of(MPDItems.SMOKED_GUARDIAN_TAIL.get()), Ingredient.of(CommonTags.TOOLS_KNIFE), MPDItems.COOKED_GUARDIAN_SLICE.get(), 3)
+                .addResultWithChance(MPDItems.COOKED_GUARDIAN_SLICE.get(), 0.25f,2)
                 .build(output);
         CuttingBoardRecipeBuilder.cuttingRecipe(Ingredient.of(MPDItems.ELDER_GUARDIAN.get()), Ingredient.of(CommonTags.TOOLS_KNIFE), MPDItems.ELDER_GUARDIAN_HEAD.get())
+                .addResultWithChance(MPDItems.RAW_ELDER_GUARDIAN_SLICE.get(), 0.25f,2)
+                .addResultWithChance(MPDItems.RAW_ELDER_GUARDIAN_SLICE.get(), 0.25f,2)
                 .addResult(MPDItems.RAW_ELDER_GUARDIAN_TAIL.get())
                 .build(output);
         CuttingBoardRecipeBuilder.cuttingRecipe(Ingredient.of(MPDItems.ELDER_GUARDIAN_HEAD.get()), Ingredient.of(CommonTags.TOOLS_KNIFE), Items.PRISMARINE_SHARD, 4)
                 .addResult(Items.PRISMARINE_CRYSTALS, 3)
+                .addResultWithChance(Items.PRISMARINE_SHARD, 0.5f,2)
+                .addResultWithChance(Items.PRISMARINE_CRYSTALS, 0.5f,2)
                 .build(output);
-        CuttingBoardRecipeBuilder.cuttingRecipe(Ingredient.of(MPDItems.RAW_ELDER_GUARDIAN_TAIL.get()), Ingredient.of(CommonTags.TOOLS_KNIFE), MPDItems.RAW_ELDER_GUARDIAN_SLICE.get(), 3)
+        CuttingBoardRecipeBuilder.cuttingRecipe(Ingredient.of(MPDItems.RAW_ELDER_GUARDIAN_TAIL.get()), Ingredient.of(CommonTags.TOOLS_KNIFE), MPDItems.RAW_ELDER_GUARDIAN_SLICE.get(), 5)
+                .addResultWithChance(MPDItems.RAW_ELDER_GUARDIAN_SLICE.get(), 0.25f,2)
                 .build(output);
-        CuttingBoardRecipeBuilder.cuttingRecipe(Ingredient.of(MPDItems.SMOKED_ELDER_GUARDIAN_TAIL.get()), Ingredient.of(CommonTags.TOOLS_KNIFE), MPDItems.COOKED_ELDER_GUARDIAN_SLICE.get(), 3)
+        CuttingBoardRecipeBuilder.cuttingRecipe(Ingredient.of(MPDItems.SMOKED_ELDER_GUARDIAN_TAIL.get()), Ingredient.of(CommonTags.TOOLS_KNIFE), MPDItems.COOKED_ELDER_GUARDIAN_SLICE.get(), 5)
+                .addResultWithChance(MPDItems.COOKED_ELDER_GUARDIAN_SLICE.get(), 0.25f,2)
                 .build(output);
         CuttingBoardRecipeBuilder.cuttingRecipe(Ingredient.of(MPDItems.ANCIENT_RIBS.get()), Ingredient.of(CommonTags.TOOLS_KNIFE), ModItems.MUTTON_CHOPS.get(), 4)
                 .build(output);

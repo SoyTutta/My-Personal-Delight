@@ -19,6 +19,20 @@
     "mypersonaldelight:scavenging_extra_guardian_meat1",
     "mypersonaldelight:remplace_cooked_guardian_meat",
     "mypersonaldelight:scavenging_extra_cooked_guardian_meat0",
-    "mypersonaldelight:scavenging_extra_cooked_guardian_meat1"
+    "mypersonaldelight:scavenging_extra_cooked_guardian_meat1",
+    "mypersonaldelight:scavenging_guardian_tail",
+    "mypersonaldelight:scavenging_cooked_guardian_tail",
+    "mypersonaldelight:remplace_guardian",
+    "mypersonaldelight:scavenging_raw_frog_leg",
+    "mypersonaldelight:scavenging_extra_raw_frog_leg",
+    "mypersonaldelight:scavenging_cooked_frog_leg",
+    "mypersonaldelight:scavenging_extra_cooked_frog_leg",
+    "mypersonaldelight:scavenging_raw_sniffer_ribs",
+    "mypersonaldelight:scavenging_extra_raw_sniffer_ribs0",
+    "mypersonaldelight:scavenging_extra_raw_sniffer_ribs1",
+    "mypersonaldelight:scavenging_cooked_sniffer_ribs",
+    "mypersonaldelight:scavenging_extra_cooked_sniffer_ribs0",
+    "mypersonaldelight:scavenging_extra_cooked_sniffer_ribs1",
+    "mypersonaldelight:scavenging_snow_golem_pumpkin"
   ]
 }
