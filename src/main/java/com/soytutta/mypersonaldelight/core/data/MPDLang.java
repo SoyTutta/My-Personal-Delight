@@ -109,6 +109,7 @@ public class MPDLang extends LanguageProvider {
         this.add("mypersonaldelight.block.feast.space_required", "You need more space to serve this.");
         this.add("mypersonaldelight.block.snowgolemfeast.use_container", "You need a %s to eat this.");
 
+        this.add("mypersonaldelight.tooltip.rotten_meat_on_a_bone", "Unhealthy Claws");
     }
 
     @Override

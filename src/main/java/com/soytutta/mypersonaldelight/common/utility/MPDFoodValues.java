@@ -200,11 +200,14 @@ public class MPDFoodValues
         public static final FoodProperties POTATO_SLICES = (new FoodProperties.Builder())
                 .nutrition(1).saturationModifier(0F)
                 .fast().build();
+        public static final FoodProperties BAKED_POTATO_SLICES = (new FoodProperties.Builder())
+                .nutrition(2).saturationModifier(5F)
+                .fast().build();
         public static final FoodProperties MASHED_POTATO = (new FoodProperties.Builder())
-                .nutrition(5).saturationModifier(0.7F)
+                .nutrition(3).saturationModifier(0.7F)
                 .build();
         public static final FoodProperties FRIES_POTATOES = (new FoodProperties.Builder())
-                .nutrition(7).saturationModifier(0.6F)
+                .nutrition(5).saturationModifier(0.6F)
                 .alwaysEdible().fast().build();
         public static final FoodProperties POTATO_OMELET = (new FoodProperties.Builder())
                 .nutrition(13).saturationModifier(0.75F)
@@ -241,6 +244,10 @@ public class MPDFoodValues
         public static final FoodProperties FROG_LEG_ON_A_STICK = (new FoodProperties.Builder())
                 .nutrition(8).saturationModifier(0.6F)
                 .build();
+        public static final FoodProperties HONEY_NUGGETS = (new FoodProperties.Builder())
+                .nutrition(8).saturationModifier(0.5F)
+                .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, 1200, 0, false, false), 1.0F)
+                .alwaysEdible().fast().build();
 
         public static final FoodProperties GLISTERING_MELON_POPSICLE = (new FoodProperties.Builder())
                 .nutrition(3).saturationModifier(1.2F)

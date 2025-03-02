@@ -6,6 +6,7 @@
 package com.soytutta.mypersonaldelight.core.data.recipes;
 
 import com.soytutta.mypersonaldelight.common.registry.MPDItems;
+import com.soytutta.mypersonaldelight.common.tag.CompatibilityTags;
 import com.soytutta.mypersonaldelight.common.tag.MyCommonTags;
 import net.minecraft.advancements.critereon.InventoryChangeTrigger;
 import net.minecraft.data.recipes.*;
@@ -13,6 +14,7 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.ItemLike;
 import net.neoforged.neoforge.common.Tags;
+import net.neoforged.neoforge.common.crafting.CompoundIngredient;
 import net.neoforged.neoforge.common.crafting.DifferenceIngredient;
 import vectorwing.farmersdelight.common.crafting.FoodServingRecipe;
 import vectorwing.farmersdelight.common.registry.ModItems;
@@ -28,7 +30,7 @@ public class MPDCraftingRecipes {
     }
 
     private static void recipesVanillaAlternatives(RecipeOutput output) {
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, Items.SLIME_BALL)
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, Items.SLIME_BALL, 1)
                 .requires(MPDItems.SLIMECUBE.get())
                 .unlockedBy("has_slimecube", InventoryChangeTrigger.TriggerInstance.hasItems(MPDItems.SLIMECUBE.get()))
                 .save(output, "mypersonaldelight:crafting/slime_ball");
@@ -36,6 +38,14 @@ public class MPDCraftingRecipes {
                 .requires(MPDItems.BROKEN_BONES.get())
                 .unlockedBy("has_bone", InventoryChangeTrigger.TriggerInstance.hasItems(Items.BONE_MEAL))
                 .save(output, "mypersonaldelight:crafting/bone_meal");
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, Items.RABBIT_STEW)
+                .requires(MyCommonTags.FOODS_COOKED_POTATO).requires(Items.COOKED_RABBIT)
+                .requires(Items.BOWL).requires(Items.CARROT)
+                .requires(Ingredient.of(Items.RED_MUSHROOM,Items.BROWN_MUSHROOM))
+                .group("rabbit_stew")
+                .unlockedBy("has_cooked_rabbit", InventoryChangeTrigger.TriggerInstance.hasItems(Items.COOKED_RABBIT))
+                .save(output, "mypersonaldelight:crafting/rabbit_stew");
+
 
     }
 
@@ -43,6 +53,24 @@ public class MPDCraftingRecipes {
     }
 
     private static void recipesCraftedMeals(RecipeOutput output) {
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.STEAK_AND_POTATOES.get())
+                .requires(MyCommonTags.FOODS_COOKED_POTATO).requires(Items.COOKED_BEEF).requires(Items.BOWL)
+                .requires(CommonTags.CROPS_ONION).requires(ModItems.COOKED_RICE.get())
+                .unlockedBy("has_baked_potato", InventoryChangeTrigger.TriggerInstance.hasItems(Items.BAKED_POTATO))
+                .save(output, "mypersonaldelight:crafting/steak_and_potatoes");
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.ROAST_CHICKEN_BLOCK.get())
+                .requires(CommonTags.CROPS_ONION).requires(net.neoforged.neoforge.common.Tags.Items.EGGS)
+                .requires(Items.BREAD).requires(Items.CARROT).requires(Items.COOKED_CHICKEN).requires(MyCommonTags.FOODS_COOKED_POTATO).requires(Items.CARROT)
+                .requires(Items.BOWL).requires(MyCommonTags.FOODS_COOKED_POTATO)
+                .unlockedBy("has_cooked_chicken", InventoryChangeTrigger.TriggerInstance.hasItems(Items.COOKED_CHICKEN))
+                .save(output, "mypersonaldelight:crafting/roast_chiken_block");
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.SHEPHERDS_PIE_BLOCK.get())
+                .requires(Ingredient.of(Items.BAKED_POTATO, MPDItems.MASHED_POTATO.get())).requires(MilkorCheese()).requires(Ingredient.of(Items.BAKED_POTATO, MPDItems.MASHED_POTATO.get()))
+                .requires(CommonTags.FOODS_COOKED_MUTTON).requires(CommonTags.FOODS_COOKED_MUTTON).requires(CommonTags.FOODS_COOKED_MUTTON)
+                .requires(CommonTags.CROPS_ONION).requires(Items.BOWL).requires(CommonTags.CROPS_ONION)
+                .unlockedBy("has_cooked_mutton", InventoryChangeTrigger.TriggerInstance.hasItems(Items.COOKED_MUTTON))
+                .save(output, "mypersonaldelight:crafting/shepherds_potato_block");
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, MPDItems.RAW_BREADED_MEAT.get())
                 .requires(Tags.Items.FOODS_RAW_MEAT)
                 .requires(Tags.Items.EGGS)
@@ -58,7 +86,7 @@ public class MPDCraftingRecipes {
                 .save(output, "mypersonaldelight:crafting/breaded_meat_sandwich");
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, MPDItems.NAPOLITANA_WITH_FRIES_POTATOES.get())
-                .requires(ModItems.MILK_BOTTLE.get())
+                .requires(MilkorCheese())
                 .requires(CommonTags.CROPS_TOMATO)
                 .requires(MPDItems.FRIES_POTATOES.get())
                 .requires(MPDItems.COOKED_BREADED_MEAT.get())
@@ -189,12 +217,12 @@ public class MPDCraftingRecipes {
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, MPDItems.GUARDIAN_GRILLED_ON_A_STICK.get())
                 .requires(Items.STICK)
-                .requires(MPDItems.COOKED_GUARDIAN_SLICE.get(),3)
+                .requires(MPDItems.COOKED_GUARDIAN_SLICE.get(),2)
                 .unlockedBy("has_guardian_slice", InventoryChangeTrigger.TriggerInstance.hasItems(MPDItems.COOKED_GUARDIAN_SLICE.get()))
                 .save(output, "mypersonaldelight:crafting/guardian_grilled_on_a_stick");
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, MPDItems.ELDER_GUARDIAN_GRILLED_ON_A_STICK.get())
                 .requires(Items.STICK)
-                .requires(MPDItems.COOKED_ELDER_GUARDIAN_SLICE.get(),3)
+                .requires(MPDItems.COOKED_ELDER_GUARDIAN_SLICE.get(),2)
                 .unlockedBy("has_elder_guardian_slice", InventoryChangeTrigger.TriggerInstance.hasItems(MPDItems.COOKED_ELDER_GUARDIAN_SLICE.get()))
                 .save(output, "mypersonaldelight:crafting/elder_guardian_grilled_on_a_stick");
 
@@ -268,5 +296,12 @@ public class MPDCraftingRecipes {
 
     private static Ingredient vegetablesPatch() {
         return DifferenceIngredient.of(Ingredient.of(Tags.Items.FOODS_VEGETABLE), Ingredient.of(new ItemLike[]{net.minecraft.world.item.Items.MELON_SLICE}));
+    }
+
+    private static Ingredient MilkorCheese() {
+        return CompoundIngredient.of(
+                Ingredient.of(CommonTags.FOODS_MILK),
+                Ingredient.of(CompatibilityTags.FOOD_CHEESE_WEDGE)
+        );
     }
 }

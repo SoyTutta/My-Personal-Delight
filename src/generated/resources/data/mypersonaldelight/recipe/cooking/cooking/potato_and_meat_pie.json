@@ -7,10 +7,10 @@
       "item": "mypersonaldelight:mashed_potato"
     },
     {
-      "item": "farmersdelight:minced_beef"
+      "tag": "c:foods/raw_beef"
     },
     {
-      "item": "farmersdelight:minced_beef"
+      "tag": "c:foods/raw_beef"
     },
     {
       "tag": "c:foods/onion"

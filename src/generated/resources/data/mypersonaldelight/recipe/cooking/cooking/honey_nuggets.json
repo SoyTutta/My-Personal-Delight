@@ -1,18 +1,20 @@
 {
   "type": "farmersdelight:cooking",
-  "cookingtime": 400,
   "experience": 1.0,
   "ingredients": [
     {
-      "tag": "c:foods/cooked_potato"
+      "tag": "c:foods/raw_chicken"
     },
     {
-      "tag": "c:foods/cooked_potato"
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "tag": "c:foods/onion"
     }
   ],
   "recipe_book_tab": "misc",
   "result": {
     "count": 1,
-    "id": "mypersonaldelight:mashed_potato"
+    "id": "mypersonaldelight:honey_nuggets"
   }
 }

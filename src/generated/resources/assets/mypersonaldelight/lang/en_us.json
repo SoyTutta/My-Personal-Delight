@@ -24,6 +24,7 @@
   "item.mypersonaldelight.ancient_ribs_with_seeds": "Ancient Ribs with Seeds",
   "item.mypersonaldelight.ancient_salad": "Ancient Salad",
   "item.mypersonaldelight.apple_popsicle": "Apple Popsicle",
+  "item.mypersonaldelight.baked_potato_slices": "Baked Potato Slices",
   "item.mypersonaldelight.beet_and_egg_salad": "Beet and Egg Salad",
   "item.mypersonaldelight.beet_juice": "Beet Juice",
   "item.mypersonaldelight.breaded_meat_sandwich": "Breaded Meat Sandwich",
@@ -58,6 +59,7 @@
   "item.mypersonaldelight.half_a_chicken_sandwich": "Half a Chicken Sandwich",
   "item.mypersonaldelight.half_a_egg_sandwich": "Half a Egg Sandwich",
   "item.mypersonaldelight.half_a_hamburger": "Half a Hamburger",
+  "item.mypersonaldelight.honey_nuggets": "Honey Nuggets",
   "item.mypersonaldelight.mashed_potato": "Mashed Potato",
   "item.mypersonaldelight.mashed_potato_with_meatballs": "Mashed Potato with Meatballs",
   "item.mypersonaldelight.mint_lettuce": "Mint Lettuce",
@@ -114,6 +116,7 @@
   "item.mypersonaldelight.slime_jelly_slice.effect.infested": "Slime Jelly Slice of Infested",
   "item.mypersonaldelight.slime_jelly_slice.effect.instant_damage": "Slime Jelly Slice of Instant Damage",
   "item.mypersonaldelight.slime_jelly_slice.effect.instant_health": "Slime Jelly Slice of Instant Health",
+  "item.mypersonaldelight.slime_jelly_slice.effect.intoxication": "Slime Jelly Slice of Intoxication",
   "item.mypersonaldelight.slime_jelly_slice.effect.invisibility": "Slime Jelly Slice of Invisibility",
   "item.mypersonaldelight.slime_jelly_slice.effect.jump_boost": "Slime Jelly Slice of Jump Boost",
   "item.mypersonaldelight.slime_jelly_slice.effect.levitation": "Slime Jelly Slice of Levitation",
@@ -124,6 +127,7 @@
   "item.mypersonaldelight.slime_jelly_slice.effect.nourishment": "Slime Jelly Slice of Nourishment",
   "item.mypersonaldelight.slime_jelly_slice.effect.oozing": "Slime Jelly Slice of Oozing",
   "item.mypersonaldelight.slime_jelly_slice.effect.poison": "Slime Jelly Slice of Poison",
+  "item.mypersonaldelight.slime_jelly_slice.effect.raging": "Slime Jelly Slice of Raging",
   "item.mypersonaldelight.slime_jelly_slice.effect.raid_omen": "Slime Jelly Slice of Raid Omen",
   "item.mypersonaldelight.slime_jelly_slice.effect.regeneration": "Slime Jelly Slice of Regeneration",
   "item.mypersonaldelight.slime_jelly_slice.effect.resistance": "Slime Jelly Slice of Resistance",
@@ -132,6 +136,8 @@
   "item.mypersonaldelight.slime_jelly_slice.effect.slowness": "Slime Jelly Slice of Slowness",
   "item.mypersonaldelight.slime_jelly_slice.effect.speed": "Slime Jelly Slice of Speed",
   "item.mypersonaldelight.slime_jelly_slice.effect.strength": "Slime Jelly Slice of Strength",
+  "item.mypersonaldelight.slime_jelly_slice.effect.sweet_heart": "Slime Jelly Slice of Sweet Heart",
+  "item.mypersonaldelight.slime_jelly_slice.effect.tipsy": "Slime Jelly Slice of Tipsy",
   "item.mypersonaldelight.slime_jelly_slice.effect.trial_omen": "Slime Jelly Slice of Trial Omen",
   "item.mypersonaldelight.slime_jelly_slice.effect.unluck": "Slime Jelly Slice of Unluck",
   "item.mypersonaldelight.slime_jelly_slice.effect.water_breathing": "Slime Jelly Slice of Water Breathing",
@@ -158,5 +164,6 @@
   "mypersonaldelight.block.snowgolemfeast.use_container": "You need a %s to eat this.",
   "mypersonaldelight.block.tasteless.use_container": "There's some leftover soup, Try adding water!",
   "mypersonaldelight.block.veggies_excess.use_container": "This needs a few more Meat!",
-  "mypersonaldelight.itemGroup.main": "My Personal Delight"
+  "mypersonaldelight.itemGroup.main": "My Personal Delight",
+  "mypersonaldelight.tooltip.rotten_meat_on_a_bone": "Unhealthy Claws"
 }

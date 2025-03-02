@@ -59,7 +59,7 @@ public class MPDItems {
             new Item(basicItem().stacksTo(1))
     );
     public static final Supplier<Item> SLIME_JELLY_SLICE = ITEMS.register("slime_jelly_slice", ()  ->
-            new SlimeJellyItem(foodItem(MPDFoodValues.SLIME_JELLY_SLICE))
+            new SlimeConsumableItem(foodItem(MPDFoodValues.SLIME_JELLY_SLICE))
     );
     /// Creeper
     /// /// ingredients
@@ -98,7 +98,7 @@ public class MPDItems {
             new ConsumableItem(foodItem(MPDFoodValues.ROTTEN_SAUSAGE))
     );
     public static final Supplier<Item> ROTTEN_MEAT_ON_A_BONE = ITEMS.register("rotten_meat_on_a_bone", ()  ->
-            new SwordItem(MPDTiers.ROTTEN, foodItem(MPDFoodValues.ROTTEN_MEAT_ON_A_BONE)
+            new RottenArmItem(MPDTiers.ROTTEN, foodItem(MPDFoodValues.ROTTEN_MEAT_ON_A_BONE)
                     .attributes(SwordItem.createAttributes(MPDTiers.ROTTEN, 3, -2.0F)))
     );
     public static final Supplier<Item> ROTTEN_HAM = ITEMS.register("rotten_ham", ()  ->
@@ -252,6 +252,9 @@ public class MPDItems {
     public static final Supplier<Item> POTATO_SLICES = ITEMS.register("potato_slices", ()  ->
             new ConsumableItem(foodItem(MPDFoodValues.POTATO_SLICES))
     );
+    public static final Supplier<Item> BAKED_POTATO_SLICES = ITEMS.register("baked_potato_slices", ()  ->
+            new ConsumableItem(foodItem(MPDFoodValues.BAKED_POTATO_SLICES))
+    );
     public static final Supplier<Item> MASHED_POTATO = ITEMS.register("mashed_potato", ()  ->
             new ConsumableItem(bowlFoodItem(MPDFoodValues.MASHED_POTATO))
     );
@@ -291,6 +294,9 @@ public class MPDItems {
     );
     public static final Supplier<Item> FROG_LEG_ON_A_STICK = ITEMS.register("frog_legs_on_a_stick", ()  ->
             new ConsumableItem(foodItem(MPDFoodValues.FROG_LEG_ON_A_STICK))
+    );
+    public static final Supplier<Item> HONEY_NUGGETS = ITEMS.register("honey_nuggets", ()  ->
+            new ConsumableItem(bowlFoodItem(MPDFoodValues.HONEY_NUGGETS))
     );
     /// /// pig
     public static final Supplier<Item> RAW_SUCKLING_PIG = ITEMS.register("raw_suckling_pig", ()  ->

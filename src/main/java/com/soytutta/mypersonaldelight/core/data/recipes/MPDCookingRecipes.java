@@ -7,12 +7,14 @@ package com.soytutta.mypersonaldelight.core.data.recipes;
 
 import com.soytutta.mypersonaldelight.common.registry.MPDItems;
 
+import com.soytutta.mypersonaldelight.common.tag.CompatibilityTags;
 import com.soytutta.mypersonaldelight.common.tag.MyCommonTags;
 import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.ItemLike;
 import net.neoforged.neoforge.common.Tags;
+import net.neoforged.neoforge.common.crafting.CompoundIngredient;
 import net.neoforged.neoforge.common.crafting.DifferenceIngredient;
 import vectorwing.farmersdelight.client.recipebook.CookingPotRecipeBookTab;
 import vectorwing.farmersdelight.common.registry.ModItems;
@@ -31,20 +33,26 @@ public class MPDCookingRecipes {
 
     private static void cookMinecraftSoups(RecipeOutput output) {
         CookingPotRecipeBuilder.cookingPotRecipe(MPDItems.DISGUSTING_STEW.get(), 1, 400, 1.0F)
-                .addIngredient(MyCommonTags.ROTTEN_MEALS).addIngredient(MyCommonTags.ROTTEN_VEGETABLES)
-                .addIngredient(ModItems.STRAW.get()).addIngredient(MyCommonTags.ROTTEN_MEALS)
+                .addIngredient(MyCommonTags.ROTTEN_MEALS).addIngredient(MyCommonTags.ROTTEN_MEALS).addIngredient(MyCommonTags.ROTTEN_VEGETABLES)
+                .addIngredient(CompoundIngredient.of(Ingredient.of(MyCommonTags.ROTTEN_MEALS), Ingredient.of(MyCommonTags.ROTTEN_VEGETABLES), Ingredient.of(ModItems.STRAW.get())))
                 .unlockedByAnyIngredient(Items.ROTTEN_FLESH, MPDItems.ROTTEN_SAUSAGE.get(), MPDItems.ROTTEN_MINCED_BEEF.get(), MPDItems.ROTTEN_BACON.get(), MPDItems.ROTTEN_MUTTON_CHOPS.get(), MPDItems.ROTTEN_CHICKEN_CUTS.get())
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .build(output, "mypersonaldelight:cooking/disgusting_stew");
+        CookingPotRecipeBuilder.cookingPotRecipe(net.minecraft.world.item.Items.RABBIT_STEW, 1, 200, 1.0F, net.minecraft.world.item.Items.BOWL)
+                .addIngredient(MyCommonTags.FOODS_COOKED_POTATO).addIngredient(Items.RABBIT).addIngredient(Items.CARROT)
+                .addIngredient(Ingredient.of(Items.BROWN_MUSHROOM,Items.RED_MUSHROOM))
+                .unlockedByAnyIngredient(net.minecraft.world.item.Items.RABBIT, net.minecraft.world.item.Items.BROWN_MUSHROOM, net.minecraft.world.item.Items.RED_MUSHROOM, net.minecraft.world.item.Items.CARROT, MPDItems.BAKED_POTATO_SLICES.get())
+                .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
+                .build(output, "farmersdelight:cooking/rabbit_stew");
     }
 
     private static void cookMeals(RecipeOutput output) {
         CookingPotRecipeBuilder.cookingPotRecipe(MPDItems.MASHED_POTATO.get(), 1, 400, 1.0F)
-                .addIngredient(Tags.Items.CROPS_POTATO).addIngredient(Tags.Items.CROPS_POTATO)
+                .addIngredient(Ingredient.of(MyCommonTags.FOODS_COOKED_POTATO),2)
                 .setRecipeBookTab(CookingPotRecipeBookTab.MISC)
                 .build(output, "mypersonaldelight:cooking/mashed_potato");
         CookingPotRecipeBuilder.cookingPotRecipe(MPDItems.FRIES_POTATOES.get(), 1, 200, 1.0F,Items.PAPER)
-                .addIngredient(Tags.Items.CROPS_POTATO).addIngredient(Tags.Items.CROPS_POTATO).addIngredient(Tags.Items.CROPS_POTATO)
+                .addIngredient(Tags.Items.CROPS_POTATO).addIngredient(Tags.Items.CROPS_POTATO)
                 .setRecipeBookTab(CookingPotRecipeBookTab.MISC)
                 .build(output, "mypersonaldelight:cooking/fries_potato");
         CookingPotRecipeBuilder.cookingPotRecipe(MPDItems.POTATO_OMELET.get(), 1, 400, 1.0F)
@@ -58,7 +66,7 @@ public class MPDCookingRecipes {
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .build(output, "mypersonaldelight:cooking/mashed_potato_with_meatballs");
         CookingPotRecipeBuilder.cookingPotRecipe(MPDItems.POTATO_AND_MEAT_PIE.get(), 1, 400, 2.0F)
-                .addIngredient(MPDItems.MASHED_POTATO.get()).addIngredient(ModItems.MINCED_BEEF.get(),2)
+                .addIngredient(MPDItems.MASHED_POTATO.get()).addIngredient(CommonTags.FOODS_RAW_BEEF).addIngredient(CommonTags.FOODS_RAW_BEEF)
                 .addIngredient(CommonTags.FOODS_ONION).addIngredient(MPDItems.MASHED_POTATO.get())
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .build(output, "mypersonaldelight:cooking/potato_and_meat_pie");
@@ -95,7 +103,7 @@ public class MPDCookingRecipes {
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .build(output, "mypersonaldelight:cooking/elder_potluck_soup");
 
-        CookingPotRecipeBuilder.cookingPotRecipe(MPDItems.ANCIENT_BOILED_EGG.get(), 6, 400, 2.0F)
+        CookingPotRecipeBuilder.cookingPotRecipe(MPDItems.ANCIENT_BOILED_EGG.get(), 8, 400, 2.0F)
                 .addIngredient(Items.SNIFFER_EGG)
                 .unlockedByAnyIngredient(Items.SNIFFER_EGG)
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
@@ -179,9 +187,21 @@ public class MPDCookingRecipes {
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .build(output, "mypersonaldelight:cooking/suckling_pig_with_vegetables");
 
+        CookingPotRecipeBuilder.cookingPotRecipe(MPDItems.HONEY_NUGGETS.get(), 1,  200, 1.0F)
+                .addIngredient(CommonTags.FOODS_RAW_CHICKEN)
+                .addIngredient(Items.HONEY_BOTTLE)
+                .addIngredient(CommonTags.FOODS_ONION)
+                .setRecipeBookTab(CookingPotRecipeBookTab.MISC)
+                .build(output, "mypersonaldelight:cooking/honey_nuggets");
     }
 
     private static Ingredient vegetablesPatch() {
         return DifferenceIngredient.of(Ingredient.of(Tags.Items.FOODS_VEGETABLE), Ingredient.of(new ItemLike[]{net.minecraft.world.item.Items.MELON_SLICE}));
+    }
+    private static Ingredient MilkorCheese() {
+        return CompoundIngredient.of(
+                Ingredient.of(CommonTags.FOODS_MILK),
+                Ingredient.of(CompatibilityTags.FOOD_CHEESE_WEDGE)
+        );
     }
 }

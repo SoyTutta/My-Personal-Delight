@@ -22,6 +22,7 @@ import java.util.Arrays;
 public class MPDSmeltingRecipes {
 
     public static void register(RecipeOutput output) {
+        foodSmeltingRecipes("potato_slices", Ingredient.of(MPDItems.POTATO_SLICES.get()), MPDItems.BAKED_POTATO_SLICES.get(), 0.35F, output);
         foodSmeltingRecipes("breaded_meat", Ingredient.of(MPDItems.RAW_BREADED_MEAT.get()), MPDItems.COOKED_BREADED_MEAT.get(), 0.35F, output);
         foodSmeltingRecipes("frog_leg", Ingredient.of(MPDItems.RAW_FROG_LEG.get()), MPDItems.COOKED_FROG_LEG.get(), 0.35F, output);
         foodSmeltingRecipes("ancient_ribs", Ingredient.of(MPDItems.ANCIENT_RIBS.get()), MPDItems.COOKED_ANCIENT_RIBS.get(), 0.35F, output);

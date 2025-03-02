@@ -39,8 +39,8 @@ public class MPDCuttingRecipes {
                 .addResultWithChance(MPDItems.COOKED_GUARDIAN_SLICE.get(), 0.25f,2)
                 .build(output);
         CuttingBoardRecipeBuilder.cuttingRecipe(Ingredient.of(MPDItems.ELDER_GUARDIAN.get()), Ingredient.of(CommonTags.TOOLS_KNIFE), MPDItems.ELDER_GUARDIAN_HEAD.get())
-                .addResultWithChance(MPDItems.RAW_ELDER_GUARDIAN_SLICE.get(), 0.25f,2)
-                .addResultWithChance(MPDItems.RAW_ELDER_GUARDIAN_SLICE.get(), 0.25f,2)
+                .addResultWithChance(MPDItems.RAW_ELDER_GUARDIAN_SLICE.get(), 0.5f,4)
+                .addResultWithChance(MPDItems.RAW_ELDER_GUARDIAN_SLICE.get(), 0.5f,4)
                 .addResult(MPDItems.RAW_ELDER_GUARDIAN_TAIL.get())
                 .build(output);
         CuttingBoardRecipeBuilder.cuttingRecipe(Ingredient.of(MPDItems.ELDER_GUARDIAN_HEAD.get()), Ingredient.of(CommonTags.TOOLS_KNIFE), Items.PRISMARINE_SHARD, 4)
@@ -62,6 +62,8 @@ public class MPDCuttingRecipes {
 
     private static void cuttingVegetables(RecipeOutput output) {
         CuttingBoardRecipeBuilder.cuttingRecipe(Ingredient.of(Items.POTATO), Ingredient.of(CommonTags.TOOLS_KNIFE), MPDItems.POTATO_SLICES.get(), 2)
+                .build(output);
+        CuttingBoardRecipeBuilder.cuttingRecipe(Ingredient.of(Items.BAKED_POTATO), Ingredient.of(CommonTags.TOOLS_KNIFE), MPDItems.BAKED_POTATO_SLICES.get(), 2)
                 .build(output);
         CuttingBoardRecipeBuilder.cuttingRecipe(Ingredient.of(Items.PITCHER_POD), Ingredient.of(CommonTags.TOOLS_KNIFE), MPDItems.POT_SLICE.get(), 2)
                 .build(output);

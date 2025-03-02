@@ -6,6 +6,7 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 
 public class MyCommonTags {
+    public static final TagKey<Item> FOODS_COOKED_POTATO= commonItemTag("foods/cooked_potato");
 
     public static final TagKey<Item> FOODS_BOILED_EGG = commonItemTag("foods/boiled_egg");
 

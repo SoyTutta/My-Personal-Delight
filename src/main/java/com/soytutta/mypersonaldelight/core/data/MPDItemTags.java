@@ -39,6 +39,7 @@ public class MPDItemTags extends ItemTagsProvider {
     }
 
     private void registerCommonTags() {
+        this.tag(MyCommonTags.FOODS_COOKED_POTATO).add(Items.BAKED_POTATO, MPDItems.BAKED_POTATO_SLICES.get());
         this.tag(CommonTags.FOODS_CABBAGE).add(MPDItems.MINT_LETTUCE.get());
         this.tag(CommonTags.FOODS_SAFE_RAW_FISH).add(MPDItems.RAW_FROG_LEG.get(), MPDItems.RAW_GUARDIAN_TAIL.get(), MPDItems.RAW_ELDER_GUARDIAN_SLICE.get());
         this.tag(CommonTags.FOODS_RAW_CHICKEN).add(MPDItems.RAW_FROG_LEG.get());
@@ -94,6 +95,7 @@ public class MPDItemTags extends ItemTagsProvider {
 
     public void registerCompatibilityTags() {
         this.tag(CompatibilityTags.BOILED_EGG_CANDIDATE).add(Items.TURTLE_EGG);
-        this.tag(CompatibilityTags.RAW_MEATS).add(MPDItems.ANCIENT_RIBS.get());
+        this.tag(CompatibilityTags.FOOD_JERKY_MEAT).addTag(MyCommonTags.ROTTEN_MEALS);
+        this.tag(CompatibilityTags.FOOD_PIZZA_TOPPING).add(MPDItems.COOKED_FROG_LEG.get(), MPDItems.POT_SLICE.get(), MPDItems.COOKED_GUARDIAN_SLICE.get(), MPDItems.COOKED_ELDER_GUARDIAN_SLICE.get(), MPDItems.MINT_LETTUCE.get());
     }
 }

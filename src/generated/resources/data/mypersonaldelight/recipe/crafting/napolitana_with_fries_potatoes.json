@@ -2,9 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "farmersdelight:milk_bottle"
-    },
+    [
+      {
+        "tag": "c:foods/milk"
+      },
+      {
+        "tag": "brewinandchewin:foods/cheese_wedge"
+      }
+    ],
     {
       "tag": "c:crops/tomato"
     },

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mynethersdelight:roasted_sausage"
+    },
+    {
+      "item": "mypersonaldelight:fries_potatoes"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "mynethersdelight:sausage_and_potatoes"
+  }
+}
