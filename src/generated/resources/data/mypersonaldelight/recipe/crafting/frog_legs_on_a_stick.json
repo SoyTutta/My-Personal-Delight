@@ -6,10 +6,10 @@
       "item": "minecraft:stick"
     },
     {
-      "item": "mypersonaldelight:cooked_frog_leg"
+      "tag": "mypersonaldelight:foods/cooked_frog_legs"
     },
     {
-      "item": "mypersonaldelight:cooked_frog_leg"
+      "tag": "mypersonaldelight:foods/cooked_frog_legs"
     }
   ],
   "result": {

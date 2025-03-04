@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "mypersonaldelight:cooking/cooking/honey_nuggets"
+        "recipe": "mypersonaldelight:cooking/cooking/honey_wings"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -15,7 +15,7 @@
   ],
   "rewards": {
     "recipes": [
-      "mypersonaldelight:cooking/cooking/honey_nuggets"
+      "mypersonaldelight:cooking/cooking/honey_wings"
     ]
   }
 }

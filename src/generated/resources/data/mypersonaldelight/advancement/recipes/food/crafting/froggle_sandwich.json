@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_frog_leg": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mypersonaldelight:raw_frog_leg"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "mypersonaldelight:crafting/froggle_sandwich"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_frog_leg"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mypersonaldelight:crafting/froggle_sandwich"
+    ]
+  }
+}

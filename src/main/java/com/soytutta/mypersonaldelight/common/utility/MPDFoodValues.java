@@ -1,5 +1,7 @@
 package com.soytutta.mypersonaldelight.common.utility;
 
+import com.soytutta.mynethersdelight.common.registry.MNDEffects;
+import com.soytutta.mypersonaldelight.integration.FAcompat.Mods;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
@@ -22,6 +24,10 @@ public class MPDFoodValues
                 .nutrition(12).saturationModifier(0.8f)
                 .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, 6000, 0, false, false), 1.0F)
                 .build();
+        public static final FoodProperties MINTMALLOW_BIT = (new FoodProperties.Builder())
+                .nutrition(4).saturationModifier(0.3f)
+                .effect(() -> new MobEffectInstance(ModEffects.COMFORT, 600, 0, false, false), 1.0F)
+                .alwaysEdible().fast().build();
         public static final FoodProperties SLIME_JELLY_SLICE = (new FoodProperties.Builder())
                 .nutrition(2).saturationModifier(0.1F)
                 .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 400, 0, false, false), 1.0F)
@@ -241,10 +247,20 @@ public class MPDFoodValues
         public static final FoodProperties COOKED_FROG_LEG = (new FoodProperties.Builder())
                 .nutrition(4).saturationModifier(0.3F)
                 .fast().build();
+        public static final FoodProperties FROGGLE_RICE_CHOWDER = (new FoodProperties.Builder())
+                .nutrition(10).saturationModifier(0.6F)
+                .effect(() -> new MobEffectInstance(ModEffects.COMFORT, 1200, 0, false, false), 1.0F)
+                .alwaysEdible().fast().build();
+        public static final FoodProperties FROGGLE_SANDWICH = (new FoodProperties.Builder())
+                .nutrition(12).saturationModifier(0.7F)
+                .build();
+        public static final FoodProperties HALF_A_FROGGLE_SANDWICH = (new FoodProperties.Builder())
+                .nutrition(6).saturationModifier(0.7F)
+                .fast().build();
         public static final FoodProperties FROG_LEG_ON_A_STICK = (new FoodProperties.Builder())
                 .nutrition(8).saturationModifier(0.6F)
                 .build();
-        public static final FoodProperties HONEY_NUGGETS = (new FoodProperties.Builder())
+        public static final FoodProperties HONEY_WINGS = (new FoodProperties.Builder())
                 .nutrition(8).saturationModifier(0.5F)
                 .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, 1200, 0, false, false), 1.0F)
                 .alwaysEdible().fast().build();
@@ -327,4 +343,16 @@ public class MPDFoodValues
         public static final FoodProperties HALF_A_HAMBURGER = (new FoodProperties.Builder())
                 .fast().nutrition(6).saturationModifier(0.75F)
                 .build();
+
+        public static final FoodProperties HALF_A_HOTDOG = Mods.MYNETHERSDELIGHT.isLoaded() ?
+                new FoodProperties.Builder().nutrition(4).saturationModifier(0.45F)
+                        .fast().build(): null;
+        public static final FoodProperties HALF_A_CHILIDOG = Mods.MYNETHERSDELIGHT.isLoaded() ?
+                new FoodProperties.Builder().nutrition(6).saturationModifier(0.45F)
+                        .effect(() -> new MobEffectInstance(MNDEffects.GPUNGENT, 300, 0), 1.0F)
+                        .effect(() -> new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 300, 0), 1.0F)
+                        .fast().build(): null;
+        public static final FoodProperties HALF_A_HAM_AND_CHEESE_SANDWICH = Mods.BREWINANDCHEWIN.isLoaded() ?
+                new FoodProperties.Builder().nutrition(5).saturationModifier(0.9F)
+                        .fast().build(): null;
     }

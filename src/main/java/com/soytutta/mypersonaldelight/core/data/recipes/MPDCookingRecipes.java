@@ -66,8 +66,8 @@ public class MPDCookingRecipes {
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .build(output, "mypersonaldelight:cooking/mashed_potato_with_meatballs");
         CookingPotRecipeBuilder.cookingPotRecipe(MPDItems.POTATO_AND_MEAT_PIE.get(), 1, 400, 2.0F)
-                .addIngredient(MPDItems.MASHED_POTATO.get()).addIngredient(CommonTags.FOODS_RAW_BEEF).addIngredient(CommonTags.FOODS_RAW_BEEF)
-                .addIngredient(CommonTags.FOODS_ONION).addIngredient(MPDItems.MASHED_POTATO.get())
+                .addIngredient(MPDItems.MASHED_POTATO.get()).addIngredient(CommonTags.FOODS_ONION).addIngredient(MPDItems.MASHED_POTATO.get())
+                .addIngredient(CommonTags.FOODS_RAW_BEEF).addIngredient(CommonTags.FOODS_RAW_BEEF).addIngredient(CommonTags.FOODS_RAW_BEEF)
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .build(output, "mypersonaldelight:cooking/potato_and_meat_pie");
 
@@ -187,12 +187,18 @@ public class MPDCookingRecipes {
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .build(output, "mypersonaldelight:cooking/suckling_pig_with_vegetables");
 
-        CookingPotRecipeBuilder.cookingPotRecipe(MPDItems.HONEY_NUGGETS.get(), 1,  200, 1.0F)
+        CookingPotRecipeBuilder.cookingPotRecipe(MPDItems.HONEY_WINGS.get(), 1,  200, 1.0F)
                 .addIngredient(CommonTags.FOODS_RAW_CHICKEN)
                 .addIngredient(Items.HONEY_BOTTLE)
                 .addIngredient(CommonTags.FOODS_ONION)
                 .setRecipeBookTab(CookingPotRecipeBookTab.MISC)
-                .build(output, "mypersonaldelight:cooking/honey_nuggets");
+                .build(output, "mypersonaldelight:cooking/honey_wings");
+        CookingPotRecipeBuilder.cookingPotRecipe(MPDItems.FROGGLE_RICE_CHOWDER.get(), 1,  200, 1.0F)
+                .addIngredient(MyCommonTags.FROG_MEAT)
+                .addIngredient(CommonTags.FOODS_MILK)
+                .addIngredient(CommonTags.CROPS_RICE)
+                .setRecipeBookTab(CookingPotRecipeBookTab.MISC)
+                .build(output, "mypersonaldelight:cooking/froggle_rice_chowdew");
     }
 
     private static Ingredient vegetablesPatch() {

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:foods/bread"
+    },
+    {
+      "tag": "mypersonaldelight:foods/cooked_frog_legs"
+    },
+    {
+      "tag": "mypersonaldelight:foods/cooked_frog_legs"
+    },
+    {
+      "tag": "c:crops/onion"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "mypersonaldelight:froggle_sandwich"
+  }
+}

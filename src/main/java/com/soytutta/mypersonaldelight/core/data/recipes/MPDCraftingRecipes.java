@@ -7,6 +7,7 @@ package com.soytutta.mypersonaldelight.core.data.recipes;
 
 import com.soytutta.mypersonaldelight.common.registry.MPDItems;
 import com.soytutta.mypersonaldelight.common.tag.CompatibilityTags;
+import com.soytutta.mypersonaldelight.common.tag.MPDTags;
 import com.soytutta.mypersonaldelight.common.tag.MyCommonTags;
 import net.minecraft.advancements.critereon.InventoryChangeTrigger;
 import net.minecraft.data.recipes.*;
@@ -184,6 +185,11 @@ public class MPDCraftingRecipes {
                 .requires(MPDItems.SLIMECUBE.get())
                 .unlockedBy("has_slime", InventoryChangeTrigger.TriggerInstance.hasItems(Items.SLIME_BALL, MPDItems.SLIMECUBE.get()))
                 .save(output, "mypersonaldelight:crafting/squishmallow");
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, MPDItems.MINTMALLOW_BIT.get())
+                .requires(MPDItems.SMOKED_SQUISHMALLOW.get())
+                .requires(MPDItems.MINT_LETTUCE.get())
+                .unlockedBy("has_slime", InventoryChangeTrigger.TriggerInstance.hasItems(Items.SLIME_BALL, MPDItems.SLIMECUBE.get()))
+                .save(output, "mypersonaldelight:crafting/mintmallow_bit");
         ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, MPDItems.SLIME_JELLY.get(), 1)
                 .pattern("sss")
                 .pattern("SwS")
@@ -258,9 +264,15 @@ public class MPDCraftingRecipes {
                 .unlockedBy("has_guardian_slice", InventoryChangeTrigger.TriggerInstance.hasItems(MPDItems.COOKED_GUARDIAN_SLICE.get()))
                 .save(output, "mypersonaldelight:crafting/rotten_meat_on_a_bone");
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, MPDItems.FROGGLE_SANDWICH.get())
+                .requires(Tags.Items.FOODS_BREAD)
+                .requires(MPDTags.COOKED_FROG_LEGS).requires(MPDTags.COOKED_FROG_LEGS)
+                .requires(CommonTags.CROPS_ONION)
+                .unlockedBy("has_frog_leg", InventoryChangeTrigger.TriggerInstance.hasItems(MPDItems.RAW_FROG_LEG.get()))
+                .save(output, "mypersonaldelight:crafting/froggle_sandwich");
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, MPDItems.FROG_LEG_ON_A_STICK.get())
                 .requires(Items.STICK)
-                .requires(MPDItems.COOKED_FROG_LEG.get(),2)
+                .requires(MPDTags.COOKED_FROG_LEGS).requires(MPDTags.COOKED_FROG_LEGS)
                 .unlockedBy("has_frog_leg", InventoryChangeTrigger.TriggerInstance.hasItems(MPDItems.RAW_FROG_LEG.get()))
                 .save(output, "mypersonaldelight:crafting/frog_legs_on_a_stick");
 
@@ -285,12 +297,21 @@ public class MPDCraftingRecipes {
                 .save(output, "mynethersdelight:crafting/rotten_sausage");
 
         ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, MPDItems.RAW_SUCKLING_PIG.get(), 1)
-                .pattern("HBH")
-                .pattern("bBb")
+                .pattern("HB ")
+                .pattern("BbB")
+                .pattern(" Bb")
                 .define('H', ModItems.HAM.get())
                 .define('B', Items.PORKCHOP).define('b', ModItems.BACON.get())
                 .unlockedBy("has_ham", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.HAM.get()))
                 .save(output, "mypersonaldelight:crafting/raw_suckling_pig");
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, MPDItems.RAW_SUCKLING_PIG.get(), 1)
+                .pattern(" BH")
+                .pattern("BbB")
+                .pattern("bB ")
+                .define('H', ModItems.HAM.get())
+                .define('B', Items.PORKCHOP).define('b', ModItems.BACON.get())
+                .unlockedBy("has_ham", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.HAM.get()))
+                .save(output, "mypersonaldelight:crafting/raw_suckling_pig_alt");
 
     }
 

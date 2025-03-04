@@ -118,8 +118,8 @@ public class SucklingPigWithVegetablesBlock extends ThreefoldFeastBlock{
             Shapes.or(Block.box(6, 2, 3, 16, 10, 13), Block.box(3, 2, 2, 9, 6, 6), Block.box(3, 2, 10, 9, 6, 14))
     };
 
-    public SucklingPigWithVegetablesBlock(Properties properties, Supplier<Item> altServingOneItem, int altServingOneCount, Supplier<Item> altServingTwoItem, int altServingTwoCount, Supplier<Item> servingItem, int ServingCount, boolean hasLeftovers) {
-        super(properties, altServingOneItem, altServingOneCount, altServingTwoItem, altServingTwoCount, servingItem, ServingCount, hasLeftovers);
+    public SucklingPigWithVegetablesBlock(Properties properties, Supplier<Item> altServingOneItem, int altServingOneCount, Supplier<Item> altServingTwoItem, int altServingTwoCount, Supplier<Item> servingItem, boolean hasLeftovers) {
+        super(properties, altServingOneItem, altServingOneCount, altServingTwoItem, altServingTwoCount, servingItem, hasLeftovers);
         this.registerDefaultState(this.stateDefinition.any().setValue(PART, BedPart.HEAD).setValue(FACING, Direction.NORTH).setValue(getServingsProperty(), getMaxServings()));
     }
 

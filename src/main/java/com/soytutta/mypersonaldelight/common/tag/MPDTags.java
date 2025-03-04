@@ -11,6 +11,9 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 
 public class MPDTags {
+    public static final TagKey<Item> FROG_LEGS = modItemTag("foods/frog_legs");
+    public static final TagKey<Item> RAW_FROG_LEGS = modItemTag("foods/raw_frog_legs");
+    public static final TagKey<Item> COOKED_FROG_LEGS = modItemTag("foods/cooked_frog_legs");
 
     private static TagKey<Item> modItemTag(String path) {
         return ItemTags.create(ResourceLocation.fromNamespaceAndPath(MyPersonalDelight.MODID, path));

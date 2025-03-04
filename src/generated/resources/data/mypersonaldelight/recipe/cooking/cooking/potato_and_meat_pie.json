@@ -7,16 +7,19 @@
       "item": "mypersonaldelight:mashed_potato"
     },
     {
-      "tag": "c:foods/raw_beef"
-    },
-    {
-      "tag": "c:foods/raw_beef"
-    },
-    {
       "tag": "c:foods/onion"
     },
     {
       "item": "mypersonaldelight:mashed_potato"
+    },
+    {
+      "tag": "c:foods/raw_beef"
+    },
+    {
+      "tag": "c:foods/raw_beef"
+    },
+    {
+      "tag": "c:foods/raw_beef"
     }
   ],
   "recipe_book_tab": "meals",

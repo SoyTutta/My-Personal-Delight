@@ -55,8 +55,8 @@ public class PotLuckSoupBlock extends ThreefoldFeastBlock implements SimpleWater
     public static final BooleanProperty TAIL = BooleanProperty.create("tail");
     public static final BooleanProperty VALANCE = BooleanProperty.create("valance");
 
-    public PotLuckSoupBlock(Properties properties, Supplier<Item> altServingOneItem, int altServingOneCount, Supplier<Item> altServingTwoItem, int altServingTwoCount, Supplier<Item> servingItem, int ServingCount, boolean hasLeftovers) {
-        super(properties, altServingOneItem, altServingOneCount, altServingTwoItem, altServingTwoCount, servingItem, ServingCount, hasLeftovers);
+    public PotLuckSoupBlock(Properties properties, Supplier<Item> altServingOneItem, int altServingOneCount, Supplier<Item> altServingTwoItem, int altServingTwoCount, Supplier<Item> servingItem, boolean hasLeftovers) {
+        super(properties, altServingOneItem, altServingOneCount, altServingTwoItem, altServingTwoCount, servingItem, hasLeftovers);
         this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(WATERLOGGED, false).setValue(getServingsProperty(), getMaxServings()).setValue(getMeatProperty(), getMaxMeat()).setValue(getVeggiesProperty(), getMaxVeggies()).setValue(TAIL,true).setValue(FIRST,true).setValue(ROOF,false).setValue(SUPPORT,false));
     }
 

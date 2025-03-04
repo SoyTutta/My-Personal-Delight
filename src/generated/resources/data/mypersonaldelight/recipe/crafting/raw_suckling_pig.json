@@ -13,8 +13,9 @@
     }
   },
   "pattern": [
-    "HBH",
-    "bBb"
+    "HB ",
+    "BbB",
+    " Bb"
   ],
   "result": {
     "count": 1,

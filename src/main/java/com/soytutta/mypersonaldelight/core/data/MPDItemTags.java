@@ -9,7 +9,9 @@ import javax.annotation.Nullable;
 
 import com.soytutta.mypersonaldelight.common.registry.MPDItems;
 import com.soytutta.mypersonaldelight.common.tag.CompatibilityTags;
+import com.soytutta.mypersonaldelight.common.tag.MPDTags;
 import com.soytutta.mypersonaldelight.common.tag.MyCommonTags;
+import com.soytutta.mypersonaldelight.integration.FAcompat.MNDIntegration;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
@@ -41,7 +43,8 @@ public class MPDItemTags extends ItemTagsProvider {
     private void registerCommonTags() {
         this.tag(MyCommonTags.FOODS_COOKED_POTATO).add(Items.BAKED_POTATO, MPDItems.BAKED_POTATO_SLICES.get());
         this.tag(CommonTags.FOODS_CABBAGE).add(MPDItems.MINT_LETTUCE.get());
-        this.tag(CommonTags.FOODS_SAFE_RAW_FISH).add(MPDItems.RAW_FROG_LEG.get(), MPDItems.RAW_GUARDIAN_TAIL.get(), MPDItems.RAW_ELDER_GUARDIAN_SLICE.get());
+        this.tag(CommonTags.CROPS_CABBAGE).add(MPDItems.MINT_LETTUCE.get());
+        this.tag(CommonTags.FOODS_SAFE_RAW_FISH).add(MPDItems.RAW_FROG_LEG.get(), MPDItems.RAW_ELDER_GUARDIAN_SLICE.get());
         this.tag(CommonTags.FOODS_RAW_CHICKEN).add(MPDItems.RAW_FROG_LEG.get());
         this.tag(CommonTags.FOODS_COOKED_CHICKEN).add(MPDItems.COOKED_FROG_LEG.get());
         this.tag(CommonTags.FOODS_RAW_COD).add(MPDItems.RAW_ELDER_GUARDIAN_SLICE.get());
@@ -81,16 +84,21 @@ public class MPDItemTags extends ItemTagsProvider {
         this.tag(Tags.Items.CROPS_POTATO).add(MPDItems.POTATO_SLICES.get());
         this.tag(Tags.Items.SLIMEBALLS).add(MPDItems.SLIMECUBE.get());
         this.tag(Tags.Items.BONES).add(MPDItems.BROKEN_BONES.get());
+        this.tag(Tags.Items.FOODS_RAW_MEAT).addTag(MPDTags.RAW_FROG_LEGS);
+        this.tag(Tags.Items.FOODS_COOKED_MEAT).addTag(MPDTags.COOKED_FROG_LEGS);
     }
 
     private void registerModTags() {
+        this.tag(MPDTags.RAW_FROG_LEGS).add(MPDItems.RAW_FROG_LEG.get());
+        this.tag(MPDTags.COOKED_FROG_LEGS).add(MPDItems.COOKED_FROG_LEG.get());
+        this.tag(MPDTags.FROG_LEGS).addTag(MPDTags.COOKED_FROG_LEGS).addTag(MPDTags.RAW_FROG_LEGS);
     }
 
     private void registerMinecraftTags() {
         this.tag(ItemTags.SWORDS).add(MPDItems.ROTTEN_MEAT_ON_A_BONE.get());
         this.tag(ItemTags.SWORD_ENCHANTABLE).add(MPDItems.ROTTEN_MEAT_ON_A_BONE.get());
-        this.tag(ItemTags.CAT_FOOD).addTag(MyCommonTags.RAW_GUARDIAN_MEAT);
-        this.tag(ItemTags.WOLF_FOOD).add(MPDItems.BROKEN_BONES.get());
+        this.tag(ItemTags.CAT_FOOD).addTag(MyCommonTags.RAW_ELDER_GUARDIAN_MEAT).addTag(MyCommonTags.RAW_GUARDIAN_MEAT).add(ModItems.COD_SLICE.get(), ModItems.SALMON_SLICE.get(),ModItems.COD_ROLL.get(), ModItems.SALMON_ROLL.get());
+        this.tag(ItemTags.WOLF_FOOD).add(MPDItems.BROKEN_BONES.get()).addTag(MyCommonTags.ROTTEN_MEALS).add(MNDIntegration.HALF_A_HOTDOG.get());;
     }
 
     public void registerCompatibilityTags() {

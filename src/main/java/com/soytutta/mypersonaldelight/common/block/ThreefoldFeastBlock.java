@@ -17,8 +17,8 @@ public class ThreefoldFeastBlock extends TwofoldFeastBlock {
     public final Supplier<Item> altServingTwoItem;
     public final int altServingTwoCount;
 
-    public ThreefoldFeastBlock(Properties properties, Supplier<Item> altServingOneItem, int altServingOneCount, Supplier<Item> altServingTwoItem, int altServingTwoCount, Supplier<Item> servingItem, int ServingCount, boolean hasLeftovers) {
-        super(properties, altServingOneItem, altServingOneCount, servingItem, ServingCount, hasLeftovers);
+    public ThreefoldFeastBlock(Properties properties, Supplier<Item> altServingOneItem, int altServingOneCount, Supplier<Item> altServingTwoItem, int altServingTwoCount, Supplier<Item> servingItem, boolean hasLeftovers) {
+        super(properties, altServingOneItem, altServingOneCount, servingItem, hasLeftovers);
         this.altServingTwoItem = altServingTwoItem;
         this.altServingTwoCount = altServingTwoCount;
     }

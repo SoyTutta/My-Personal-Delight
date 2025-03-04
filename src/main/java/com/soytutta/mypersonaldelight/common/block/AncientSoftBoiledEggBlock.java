@@ -47,8 +47,8 @@ public class AncientSoftBoiledEggBlock extends TwofoldFeastBlock{
             Block.box(1, 1, 1, 11, 10, 11)
     };
 
-    public AncientSoftBoiledEggBlock(Properties properties, Supplier<Item> altServingOneItem, int altServingOneCount, Supplier<Item> servingItem, int ServingCount, boolean hasLeftovers) {
-        super(properties, altServingOneItem, altServingOneCount, servingItem, ServingCount, hasLeftovers);
+    public AncientSoftBoiledEggBlock(Properties properties, Supplier<Item> altServingOneItem, int altServingOneCount, Supplier<Item> servingItem, boolean hasLeftovers) {
+        super(properties, altServingOneItem, altServingOneCount, servingItem, hasLeftovers);
     }
 
     @Override

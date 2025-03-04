@@ -54,6 +54,9 @@ public class MPDItems {
     public static final Supplier<Item> STICKY_GREEN_NOODLES = ITEMS.register("sticky_green_noodles", ()  ->
             new SlimeConsumableItem(bowlFoodItem(MPDFoodValues.STICKY_GREEN_NOODLES), true)
     );
+    public static final Supplier<Item> MINTMALLOW_BIT = ITEMS.register("mintmallow_bite", ()  ->
+            new MintmallowBitItem(foodItem(MPDFoodValues.MINTMALLOW_BIT))
+    );
     /// /// feasts
     public static final Supplier<Item> SLIME_JELLY = ITEMS.register("slime_jelly", ()  ->
             new Item(basicItem().stacksTo(1))
@@ -289,14 +292,23 @@ public class MPDItems {
     public static final Supplier<Item> RAW_FROG_LEG = ITEMS.register("raw_frog_leg", ()  ->
             new ConsumableItem(foodItem(MPDFoodValues.RAW_FROG_LEG))
     );
+    public static final Supplier<Item> FROGGLE_RICE_CHOWDER = ITEMS.register("froggle_rice_chowder", ()  ->
+            new ConsumableItem(bowlFoodItem(MPDFoodValues.FROGGLE_RICE_CHOWDER),true)
+    );
     public static final Supplier<Item> COOKED_FROG_LEG = ITEMS.register("cooked_frog_leg", ()  ->
             new ConsumableItem(foodItem(MPDFoodValues.COOKED_FROG_LEG))
+    );
+    public static final Supplier<Item> FROGGLE_SANDWICH = ITEMS.register("froggle_sandwich", ()  ->
+            new ConsumableItem(foodItem(MPDFoodValues.FROGGLE_SANDWICH))
+    );
+    public static final Supplier<Item> HALF_A_FROGGLE_SANDWICH = ITEMS.register("half_a_froggle_sandwich", ()  ->
+            new ConsumableItem(foodItem(MPDFoodValues.HALF_A_FROGGLE_SANDWICH))
     );
     public static final Supplier<Item> FROG_LEG_ON_A_STICK = ITEMS.register("frog_legs_on_a_stick", ()  ->
             new ConsumableItem(foodItem(MPDFoodValues.FROG_LEG_ON_A_STICK))
     );
-    public static final Supplier<Item> HONEY_NUGGETS = ITEMS.register("honey_nuggets", ()  ->
-            new ConsumableItem(bowlFoodItem(MPDFoodValues.HONEY_NUGGETS))
+    public static final Supplier<Item> HONEY_WINGS = ITEMS.register("honey_wings", ()  ->
+            new ConsumableItem(bowlFoodItem(MPDFoodValues.HONEY_WINGS))
     );
     /// /// pig
     public static final Supplier<Item> RAW_SUCKLING_PIG = ITEMS.register("raw_suckling_pig", ()  ->

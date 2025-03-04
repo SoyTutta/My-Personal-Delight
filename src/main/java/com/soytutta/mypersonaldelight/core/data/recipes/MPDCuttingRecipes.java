@@ -78,6 +78,8 @@ public class MPDCuttingRecipes {
                 .build(output);
         CuttingBoardRecipeBuilder.cuttingRecipe(Ingredient.of(MPDItems.ROTTEN_BACON.get()), Ingredient.of(CommonTags.TOOLS_KNIFE), MPDItems.ROTTEN_MINCED_BEEF.get())
                 .build(output);
+        CuttingBoardRecipeBuilder.cuttingRecipe(Ingredient.of(MPDItems.FROGGLE_SANDWICH.get()), Ingredient.of(CommonTags.TOOLS_KNIFE), MPDItems.HALF_A_FROGGLE_SANDWICH.get(), 2)
+                .build(output);
         CuttingBoardRecipeBuilder.cuttingRecipe(Ingredient.of(MPDItems.BREADED_MEAT_SANDWICH.get()), Ingredient.of(CommonTags.TOOLS_KNIFE), MPDItems.HALF_A_BREADED_MEAT_SANDWICH.get(), 2)
                 .build(output);
         CuttingBoardRecipeBuilder.cuttingRecipe(Ingredient.of(ModItems.BACON_SANDWICH.get()), Ingredient.of(CommonTags.TOOLS_KNIFE), MPDItems.HALF_A_BACON_SANDWICH.get(), 2)

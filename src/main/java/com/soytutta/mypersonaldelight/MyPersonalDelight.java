@@ -3,6 +3,9 @@ package com.soytutta.mypersonaldelight;
 import com.soytutta.mypersonaldelight.common.MPDCommonSetup;
 import com.soytutta.mypersonaldelight.common.potion.MPDPotions;
 import com.soytutta.mypersonaldelight.common.registry.*;
+import com.soytutta.mypersonaldelight.integration.FAcompat.BnCIntegration;
+import com.soytutta.mypersonaldelight.integration.FAcompat.MNDIntegration;
+import com.soytutta.mypersonaldelight.integration.FAcompat.Mods;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.loading.FMLEnvironment;
@@ -20,6 +23,8 @@ public class MyPersonalDelight
         modEventBus.addListener(MPDCommonSetup::init);
 
         MPDItems.ITEMS.register(modEventBus);
+        if (Mods.MYNETHERSDELIGHT.isLoaded()) MNDIntegration.ITEMS.register(modEventBus);
+        if (Mods.BREWINANDCHEWIN.isLoaded()) BnCIntegration.ITEMS.register(modEventBus);
         MPDBlocks.BLOCKS.register(modEventBus);
         MPDCreativeTab.TABS.register(modEventBus);
         MPDLootModifiers.LOOT_MODIFIERS.register(modEventBus);

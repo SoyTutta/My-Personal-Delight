@@ -1,11 +1,16 @@
 package com.soytutta.mypersonaldelight.common.registry;
 
+import com.soytutta.mynethersdelight.common.registry.MNDItems;
 import com.soytutta.mypersonaldelight.MyPersonalDelight;
 import com.soytutta.mypersonaldelight.common.utility.MPDTextUtils;
+import com.soytutta.mypersonaldelight.integration.FAcompat.BnCIntegration;
+import com.soytutta.mypersonaldelight.integration.FAcompat.MNDIntegration;
+import com.soytutta.mypersonaldelight.integration.FAcompat.Mods;
 import net.minecraft.core.registries.*;
 import net.minecraft.world.item.*;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
+import umpaz.brewinandchewin.common.registry.BnCItems;
 import vectorwing.farmersdelight.common.registry.ModItems;
 
 public class MPDCreativeTab {
@@ -29,14 +34,28 @@ public class MPDCreativeTab {
                     output.accept(MPDItems.ICE_CREAM_IN_A_PUMPKIN_HEAD.get());
                     output.accept(MPDItems.PUMPKIN_HEAD_SLICE.get());
 
-                    output.accept(ModItems.BACON_SANDWICH.get());
-                    output.accept(MPDItems.HALF_A_BACON_SANDWICH.get());
+                    output.accept(ModItems.HAMBURGER.get());
+                    output.accept(MPDItems.HALF_A_HAMBURGER.get());
+
                     output.accept(ModItems.EGG_SANDWICH.get());
                     output.accept(MPDItems.HALF_A_EGG_SANDWICH.get());
                     output.accept(ModItems.CHICKEN_SANDWICH.get());
                     output.accept(MPDItems.HALF_A_CHICKEN_SANDWICH.get());
-                    output.accept(ModItems.HAMBURGER.get());
-                    output.accept(MPDItems.HALF_A_HAMBURGER.get());
+
+                    output.accept(MPDItems.HALF_A_BACON_SANDWICH.get());
+                    output.accept(ModItems.BACON_SANDWICH.get());
+
+                    if (Mods.BREWINANDCHEWIN.isLoaded()) {
+                        output.accept(BnCItems.HAM_AND_CHEESE_SANDWICH);
+                        output.accept(BnCIntegration.HALF_A_HAM_AND_CHEESE_SANDWICH.get());
+                    }
+
+                    if (Mods.MYNETHERSDELIGHT.isLoaded()) {
+                        output.accept(MNDItems.HOTDOG.get());
+                        output.accept(MNDIntegration.HALF_A_HOTDOG.get());
+                        output.accept(MNDItems.CHILIDOG.get());
+                        output.accept(MNDIntegration.HALF_A_CHILIDOG.get());
+                    }
 
                     output.accept(MPDItems.BREADED_MEAT_SANDWICH.get());
                     output.accept(MPDItems.HALF_A_BREADED_MEAT_SANDWICH.get());
@@ -56,28 +75,33 @@ public class MPDCreativeTab {
                     output.accept(MPDItems.POTATO_AND_MEAT_PIE.get());
                     output.accept(MPDItems.PLATE_OF_POTATO_AND_MEAT_PIE.get());
 
-                    output.accept(MPDItems.BEET_AND_EGG_SALAD.get());
-                    output.accept(MPDItems.PASTA_WITH_BEET.get());
-                    output.accept(MPDItems.BEET_JUICE.get());
-
                     output.accept(MPDItems.RAW_SUCKLING_PIG.get());
                     output.accept(MPDItems.SUCKLING_PIG_WITH_VEGETABLES.get());
                     output.accept(MPDItems.PLATE_OF_MUZZLE_WITH_VEGETABLES.get());
                     output.accept(MPDItems.PLATE_OF_HAM_WITH_VEGETABLES.get());
                     output.accept(MPDItems.PLATE_OF_SUCKLING_PIG_WITH_VEGETABLES.get());
 
+                    output.accept(MPDItems.HONEY_WINGS.get());
                     output.accept(MPDItems.RAW_FROG_LEG.get());
                     output.accept(MPDItems.COOKED_FROG_LEG.get());
+                    output.accept(MPDItems.FROGGLE_RICE_CHOWDER.get());
+                    output.accept(MPDItems.FROGGLE_SANDWICH.get());
+                    output.accept(MPDItems.HALF_A_FROGGLE_SANDWICH.get());
                     output.accept(MPDItems.FROG_LEG_ON_A_STICK.get());
-                    output.accept(MPDItems.HONEY_NUGGETS.get());
+
+                    output.accept(MPDItems.BEET_AND_EGG_SALAD.get());
+                    output.accept(MPDItems.PASTA_WITH_BEET.get());
+                    output.accept(MPDItems.BEET_JUICE.get());
 
                     output.accept(MPDItems.SLIMECUBE.get());
                     output.accept(MPDItems.SLIME_DUMPLINGS.get());
-                    output.accept(MPDItems.SQUISHMALLOW.get());
-                    output.accept(MPDItems.SMOKED_SQUISHMALLOW.get());
                     output.accept(MPDItems.STICKY_GREEN_NOODLES.get());
                     output.accept(MPDItems.SLIME_JELLY.get());
                     output.accept(MPDItems.SLIME_JELLY_SLICE.get());
+                    output.accept(MPDItems.SQUISHMALLOW.get());
+                    output.accept(MPDItems.SMOKED_SQUISHMALLOW.get());
+
+                    output.accept(MPDItems.MINTMALLOW_BIT.get());
 
                     output.accept(MPDItems.MINT_LETTUCE.get());
                     output.accept(MPDItems.SWEET_TRIGGER.get());

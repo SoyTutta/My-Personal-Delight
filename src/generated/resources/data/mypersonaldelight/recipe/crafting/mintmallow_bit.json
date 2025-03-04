@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mypersonaldelight:smoked_squishmallow"
+    },
+    {
+      "item": "mypersonaldelight:mint_lettuce"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "mypersonaldelight:mintmallow_bite"
+  }
+}

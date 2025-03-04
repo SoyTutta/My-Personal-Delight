@@ -1,5 +1,9 @@
 {
   "values": [
-    "#c:foods/raw_guardian_meat"
+    "#c:foods/any_guardian_meats",
+    "farmersdelight:cod_slice",
+    "farmersdelight:salmon_slice",
+    "farmersdelight:cod_roll",
+    "farmersdelight:salmon_roll"
   ]
 }

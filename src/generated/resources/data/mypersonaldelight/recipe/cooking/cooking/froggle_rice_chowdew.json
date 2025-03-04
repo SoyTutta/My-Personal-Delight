@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "c:foods/frog_meat"
+    },
+    {
+      "tag": "c:foods/milk"
+    },
+    {
+      "tag": "c:crops/rice"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "count": 1,
+    "id": "mypersonaldelight:froggle_rice_chowder"
+  }
+}

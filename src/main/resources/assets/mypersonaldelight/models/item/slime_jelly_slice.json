@@ -1,7 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "mypersonaldelight:item/slime_jelly_slice",
-    "layer1": "mypersonaldelight:item/slime_jelly_slice_overlay"
+    "layer0": "mypersonaldelight:item/slime_jelly/slime_jelly_slice"
   }
 }

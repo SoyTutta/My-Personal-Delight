@@ -110,6 +110,11 @@ public class MPDLang extends LanguageProvider {
         this.add("mypersonaldelight.block.snowgolemfeast.use_container", "You need a %s to eat this.");
 
         this.add("mypersonaldelight.tooltip.rotten_meat_on_a_bone", "Unhealthy Claws");
+
+        this.add("item.mynethersdelight.half_a_hotdog", "Half a Hotdog");
+        this.add("item.mynethersdelight.half_a_chilidog", "Half a Chilidog");
+        this.add("item.brewinandchewin.half_a_ham_and_cheese_sandwich", "Half a Ham and Cheese Sandwich");
+
     }
 
     @Override
